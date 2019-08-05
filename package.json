@@ -28,9 +28,14 @@
     "homepage": "https://github.com/miyucoder/Anime4VN_ExpressJS#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.4",
+        "dotenv": "^8.0.0",
         "express": "^4.17.1",
         "lowdb": "^1.0.0",
-        "pug": "^2.0.4"
+        "md5": "^2.2.1",
+        "multer": "^1.4.2",
+        "pug": "^2.0.4",
+        "shortid": "^2.2.14"
     },
     "devDependencies": {
         "nodemon": "^1.19.1"
