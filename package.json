@@ -1,0 +1,38 @@
+{
+    "name": "anime4vn",
+    "version": "1.0.0",
+    "description": "web anime using expressjs+pug+lowdb",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon --inspect app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/miyucoder/Anime4VN_ExpressJS.git"
+    },
+    "keywords": [
+        "anime",
+        "web",
+        "anime",
+        "pug",
+        "express",
+        "expressjs",
+        "lowdb"
+    ],
+    "author": "miyucoder",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/miyucoder/Anime4VN_ExpressJS/issues"
+    },
+    "homepage": "https://github.com/miyucoder/Anime4VN_ExpressJS#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "lowdb": "^1.0.0",
+        "pug": "^2.0.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}

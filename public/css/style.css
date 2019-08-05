@@ -1,0 +1,293 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=vietnamese');
+
+.font-header {
+    font-size: 1.0rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    font-size: 0.92rem !important;
+    text-transform: capitalize !important;
+}
+
+/* title-link */
+.title-link {
+    text-transform: uppercase;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.title-link:link {
+    color: #32323d;
+    text-decoration: none;
+}
+
+.title-link:visited {
+    color: #32323d;
+}
+
+.title-link:hover {
+    color: #2882bc;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.title-link:active {
+    color: #32323d;
+    transition: all 0.1s;
+}
+
+/* item-anime */
+.item-anime__update {
+    width: 240px;
+    height: 130px;
+    background-image: url('https://picsum.photos/500/500');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* uigradients.com */
+
+.item-anime__update .overlay {
+    height: 100%;
+    background-image: linear-gradient(179.6deg, rgba(69, 181, 170, 0.2) 12.3%, rgba(0, 0, 0, 0.5) 90.8%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.item-anime__update .overlay .info {
+    flex-grow: 0.8;
+}
+
+.item-anime__update .overlay .count {
+    height: 100%;
+    font-size: 11px;
+    flex-grow: 0.2;
+}
+
+.item-anime__update .overlay .count .view-count {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+    font-size: 10px;
+}
+
+.item-anime__update .overlay .play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -28px;
+    margin-left: -28px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.3s;
+    color: white;
+}
+
+.item-anime__update .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.item-anime__update .overlay:hover .play-button {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.item-anime__update .overlay:active .play-button {
+    transform: scale(0.5);
+    transition: all 0.1s;
+}
+
+.item-anime__update .overlay .count .time-count {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+    font-size: 10px;
+}
+
+.item-anime__update .overlay .info .title a:link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: capitalize;
+    text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.item-anime__update .overlay .info .title a:visited {
+    color: #FFF;
+}
+
+.item-anime__update .overlay:hover .info .title a {
+    color: #3590cb;
+    transition: all 0.5s;
+}
+
+.item-anime__update .overlay:active .info .title a {
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.item-anime__update .overlay .info .ep {
+    text-shadow: 0 1px 1px rgba(3, 3, 3, 0.7);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+}
+
+.item-anime__update .overlay .info .ep a:link {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.item-anime__update .overlay .info .ep a:visited {
+    color: rgb(236, 236, 236);
+}
+
+@media (max-width: 991px) {
+    .item-anime__update {
+        width: 320px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .item-anime__update {
+        width: 240px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 481px) {
+    .item-anime__update {
+        width: 96%;
+        height: 110px;
+    }
+
+    .item-anime__update .overlay .play-button {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 395px) {
+    .item-anime__update {
+        width: 90%;
+        height: 80px;
+    }
+
+    .item-anime__update .overlay .play-button {
+        font-size: 60%;
+    }
+
+    .item-anime__update .overlay .info .title a:link {
+        font-size: 11px;
+    }
+}
+
+.page-link {
+    border: 1px solid #ffffff00 !important;
+}
+
+.pagination {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.page-link {
+    color: rgb(158, 158, 158) !important;
+}
+
+.item-enable__color {
+    color: rgb(53, 53, 53) !important;
+}
+
+.button-btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.like-and-more {
+    margin-top: 1.5%;
+}
+
+.like-and-more a {
+    color: rgb(27, 27, 27);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.like-and-more a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* search-box */
+#custom-search-input {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 15px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #D9230F;
+    cursor: unset;
+    z-index: 2;
+}
+
+.search-query:focus {
+    z-index: 0;
+}
+
+.input-group {
+    font-size: 1.0rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.footer {
+    margin-top: 15rem !important;
+    font-family: 'Raleway', sans-serif !important;
+}

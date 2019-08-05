@@ -1,0 +1,28 @@
+extends ./extends/layout
+
+block content
+    //- header
+    include ./includes/header
+
+    .container.mt-5.pt-5
+        //- slider page
+        include ./includes/carousel
+
+        //- anime update
+        .anime-update
+            include ./includes/content/indexRoute/title-update
+            include ./includes/content/indexRoute/item-update
+        
+        //- pagination
+        include ./includes/content/indexRoute/pagination-item__update
+
+        //- anime all
+        .anime-all
+            include ./includes/content/indexRoute/title
+            include ./includes/content/indexRoute/item
+
+        //- pagination
+        include ./includes/content/indexRoute/pagination-item
+
+        //- footer
+        include ./includes/footer
