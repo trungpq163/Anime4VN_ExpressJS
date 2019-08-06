@@ -1,3 +1,7 @@
+const db = require('../../db');
+const shortid = require('shortid');
+const md5 = require('md5');
+
 module.exports.login = (req, res, next) => {
     res.render('auth/login');
     next();
@@ -14,6 +18,6 @@ module.exports.postSignUp = (req, res, next) => {
     req.body.password = md5(req.body.password);
 
     db.get('users').push(req.body).write();
-    res.redirect('/auth/login');
+    res.redirect('/user/home');
     next();
 }

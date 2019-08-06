@@ -291,3 +291,7 @@
     margin-top: 15rem !important;
     font-family: 'Raleway', sans-serif !important;
 }
+
+.font-default {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}

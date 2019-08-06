@@ -1,3 +1,11 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "Phan quoc",
+      "email": "miyucoder@gmail.com",
+      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "id": "22zDtM6gq",
+      "avatar": "uploads/e6d2914282721047dabb9451283321fe"
+    }
+  ]
 }
