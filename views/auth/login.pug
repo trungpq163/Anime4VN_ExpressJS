@@ -3,3 +3,24 @@ extends ../extends/layout
 block content
     //- header
     include ../includes/content/indexRoute/header
+    .pt-5
+    .container.font-default
+
+        h2.pt-5.mt-5 Đăng Nhập
+
+        if errors
+            each error in errors
+                .alert.alert-danger= error
+
+        form(method="POST")
+            .form-group
+                label(for="email") Email
+                input#email.form-control(name="email", type="text", value=values ? values.email : "")
+
+            .form-group
+                label(for="password") PassWord
+                input#password.form-control(name="password", type="password", value=values ? values.password : "")
+
+            button.btn.btn-primary Login
+
+        a(href="/users/create") Not account! Register ^^   

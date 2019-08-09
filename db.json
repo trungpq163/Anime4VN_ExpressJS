@@ -1,11 +1,18 @@
 {
   "users": [
     {
-      "name": "Phan quoc",
-      "email": "miyucoder@gmail.com",
+      "name": "sasuke",
+      "email": "test@gmail.com",
       "password": "7af25da4cbf26f9c0f121585d176cf71",
-      "id": "22zDtM6gq",
-      "avatar": "uploads/e6d2914282721047dabb9451283321fe"
+      "id": "r2P-VtHTx",
+      "avatar": "uploads/bd0c002a0382d6cf520da2f7e780af68"
+    },
+    {
+      "name": "naruto",
+      "email": "ichigo@gmail.com",
+      "password": "cf9ee5bcb36b4936dd7064ee9b2f139e",
+      "id": "nX3QVuBhV",
+      "avatar": "/uploads/ac9aced790febc0a29024ea4312d37b7"
     }
   ]
 }
