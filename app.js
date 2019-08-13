@@ -12,6 +12,7 @@ const port = 3000;
 const indexRoute = require(`./app/routes/index`);
 const authRoute = require(`./app/routes/auth`);
 const userRoute = require(`./app/routes/user`);
+const searchRoute = require(`./app/routes/search`);
 
 // set template engine to using
 app.set(`views`, `./views`);
@@ -33,6 +34,7 @@ app.use(express.static(path.join(__dirname, `public`)));
 app.use(`/`, indexRoute);
 app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
+app.use(`/search`, searchRoute);
 
 // listening on port
 app.listen(port, () => console.log(`App listening on port, ` + port));

@@ -1,23 +1,15 @@
-<div class="search-anime">
-    <div class="row d-flex justify-content-start">
-        <div class="col-12 col-lg-12 col-md-12 col-xl-12">
-            <a href="#" class="title-link">
-                <p class="h5 mt-5 mb-3">tìm kiếm anime!&nbsp;<i class="fas fa-angle-right"></i></p>
-            </a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <div id="custom-search-input">
-                <div class="input-group">
-                    <input type="text" class="search-query form-control" placeholder="Tìm kiếm anime (⁎˃ᆺ˂)" />
-                    <span class="input-group-btn">
-                        <button type="button" disabled>
-                            <span class="fa fa-search"></span>
-                        </button>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+.search-anime
+    .row.d-flex.justify-content-start
+        .col-12.col-lg-12.col-md-12.col-xl-12
+            a.title-link(href='#')
+                p.h5.mt-5.mb-3
+                    | t&igrave;m ki&#x1EBF;m anime!&nbsp;
+                    i.fas.fa-angle-right
+    .row
+        .col-12
+            #custom-search-input
+                .input-group
+                    input.search-query.form-control(type='text', placeholder='Tìm kiếm anime (⁎˃ᆺ˂)')
+                    span.input-group-btn
+                        button(type='button', disabled='')
+                            span.fa.fa-search
