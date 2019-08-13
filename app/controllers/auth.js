@@ -5,7 +5,7 @@ const md5 = require('md5');
 module.exports.login = (req, res, next) => {
     let user = db.get('users').value();
     res.render('auth/login', {
-        user: user
+        users: user
     });
     next();
 }
