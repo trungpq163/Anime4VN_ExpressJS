@@ -1,21 +1,29 @@
 const db = require('../../db');
 
 module.exports.requireAuth = function (req, res, next) {
-    // if (!req.signedCookies.userId) {
-    //     res.redirect('/auth/login');
-    //     return;
-    // }
+    if (!req.signedCookies.userId) {
+        res.redirect('/auth/login');
+        return;
+    }
 
-    // let user = db.get('users').find({
-    //     id: req.signedCookies.userId
-    // }).value();
+    let user = db.get('users').find({
+        id: req.signedCookies.userId
+    }).value();
 
-    // if (!user) {
-    //     res.redirect('/auth/login');
-    //     return;
-    // }
+    if (!user) {
+        res.redirect('/auth/login');
+        return;
+    }
 
-    // res.locals.user = user;
-    // res.locals.authenticated = !req.user.anonymous;
+    res.locals.user = user;
     next();
 };
+
+module.exports.checkAuth = function (req, res, next) {
+    let user = db.get('users').find({
+        id: req.signedCookies.userId
+    }).value();
+
+    res.locals.user = user;
+    next();
+}

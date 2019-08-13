@@ -1,6 +1,8 @@
 // require modules
+require(`dotenv`).config();
 const express = require(`express`);
 const bodyParser = require(`body-parser`);
+const cookieParser = require(`cookie-parser`);
 const path = require(`path`);
 
 const app = express();
@@ -20,6 +22,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+// using cookie-parser to save sessions login user
+app.use(cookieParser(process.env.SESSION_SECRET));
 
 // using static files
 app.use(express.static(path.join(__dirname, `public`)));

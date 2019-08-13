@@ -11,3 +11,8 @@ module.exports.home = function (req, res, next) {
     });
     next();
 }
+
+module.exports.index = function (req, res, next) {
+    res.render('user/home');
+    next();
+}
