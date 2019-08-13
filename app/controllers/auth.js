@@ -11,7 +11,7 @@ module.exports.login = (req, res, next) => {
 }
 
 module.exports.postLogin = (req, res, next) => {
-    
+
 }
 
 module.exports.signUp = (req, res, next) => {
@@ -20,8 +20,11 @@ module.exports.signUp = (req, res, next) => {
 }
 
 module.exports.postSignUp = (req, res, next) => {
+    let lenghtAvatarPath = (req.file.path).length;
+
     req.body.id = shortid.generate();
-    req.body.avatar = '/' + req.file.path.split('/').slice(1).join('/');
+    // req.body.avatar = req.file.path.split('/').slice(1).join('/');
+    req.body.avatar = req.file.path.slice(6, lenghtAvatarPath);
     req.body.password = md5(req.body.password);
 
     db.get('users').push(req.body).write();
