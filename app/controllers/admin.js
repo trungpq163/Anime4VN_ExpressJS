@@ -6,7 +6,7 @@ module.exports.login = (req, res, next) => {
     let admin = db.get('admin').value();
     res.render('admin/login', {
         admin: admin
-    })
+    });
     next();
 }
 
@@ -62,7 +62,7 @@ module.exports.postSignUp = (req, res, next) => {
     req.body.password = md5(req.body.password);
 
     db.get('admin').push(req.body).write();
-    res.redirect('/admin/login');
+    res.redirect('/');
     next();
 }
 

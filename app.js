@@ -35,7 +35,7 @@ app.use(express.static(path.join(__dirname, `public`)));
 app.use(`/`, indexRoute);
 app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
-app.use(`admin`, adminRoute);
+app.use(`/admin`, adminRoute);
 app.use(`/search`, searchRoute);
 
 // listening on port

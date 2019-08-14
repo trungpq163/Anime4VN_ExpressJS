@@ -1,12 +1,34 @@
 {
-  "users": [
-    {
+  "users": [{
       "name": "Phan Quốc Trung",
       "email": "miyucoder@gmail.com",
       "password": "ce72b9a28e700b0a9d77c91535f91cdd",
       "id": "N9sIGSxTW",
       "avatar": "\\uploads\\c696fdf5595c698dcfb0fb671b218ddf"
+    },
+    {
+      "name": "Phan Quốc Trung",
+      "email": "admin@gmail.com",
+      "password": "8f2cc761c41cf2b5d09e8a1102df895c",
+      "id": "HG5NOKI54",
+      "avatar": "uploads\\454453dd115c0ecf460fcc51ac517989"
+    },
+    {
+      "name": "testing",
+      "email": "test@gmail.com",
+      "password": "04ab8a24a7a4aaf2078583859feec3d8",
+      "id": "SKkXbP5Iq",
+      "avatar": "uploads\\940391abfb49b83c3c20e4c89b53fedd"
     }
   ],
-  "admin": []
+  "admin": [{
+    "name": "Phan Quốc Trung",
+    "email": "adminmiyu@gmail.com",
+    "password": "7af25da4cbf26f9c0f121585d176cf71",
+    "id": "MyaBfQk_O",
+    "avatar": "uploads\\111d6a22ea325efb857be1a618db238d"
+  }],
+  "keyAdmin": [{
+    "key": "phanquoctrungadmin"
+  }]
 }

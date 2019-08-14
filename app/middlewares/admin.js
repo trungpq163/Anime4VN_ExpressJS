@@ -27,3 +27,7 @@ module.exports.checkAdmin = function (req, res, next) {
     res.locals.admin = admin;
     next();
 }
+
+module.exports.validateAdmin = (req, res, next) => {
+    next();
+}
