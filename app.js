@@ -12,6 +12,7 @@ const port = 3000;
 const indexRoute = require(`./app/routes/index`);
 const authRoute = require(`./app/routes/auth`);
 const userRoute = require(`./app/routes/user`);
+const adminRoute = require(`./app/routes/admin`);
 const searchRoute = require(`./app/routes/search`);
 
 // set template engine to using
@@ -34,6 +35,7 @@ app.use(express.static(path.join(__dirname, `public`)));
 app.use(`/`, indexRoute);
 app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
+app.use(`admin`, adminRoute);
 app.use(`/search`, searchRoute);
 
 // listening on port
