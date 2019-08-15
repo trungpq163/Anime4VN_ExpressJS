@@ -8,7 +8,8 @@ db = low(adapter);
 db.defaults({
         users: [],
         admin: [],
-        keyAdmin: []
+        keyAdmin: [],
+        items: []
     })
     .write();
 
