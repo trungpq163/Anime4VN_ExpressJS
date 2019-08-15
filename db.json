@@ -1,5 +1,6 @@
 {
-  "users": [{
+  "users": [
+    {
       "name": "Phan Quốc Trung",
       "email": "miyucoder@gmail.com",
       "password": "ce72b9a28e700b0a9d77c91535f91cdd",
@@ -21,14 +22,25 @@
       "avatar": "uploads\\940391abfb49b83c3c20e4c89b53fedd"
     }
   ],
-  "admin": [{
-    "name": "Phan Quốc Trung",
-    "email": "adminmiyu@gmail.com",
-    "password": "7af25da4cbf26f9c0f121585d176cf71",
-    "id": "MyaBfQk_O",
-    "avatar": "uploads\\111d6a22ea325efb857be1a618db238d"
-  }],
-  "keyAdmin": [{
-    "key": "phanquoctrungadmin"
-  }]
+  "admin": [
+    {
+      "name": "Phan Quốc Trung",
+      "email": "adminmiyu@gmail.com",
+      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "id": "MyaBfQk_O",
+      "avatar": "uploads\\111d6a22ea325efb857be1a618db238d"
+    },
+    {
+      "name": "sasuke",
+      "email": "admin@dlu.edu.vn",
+      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "id": "-pGYfAbx0",
+      "avatar": "uploads\\0ab26a977396a47e9f94bde212304925"
+    }
+  ],
+  "keyAdmin": [
+    {
+      "key": "phanquoctrungadmin"
+    }
+  ]
 }

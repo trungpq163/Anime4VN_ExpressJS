@@ -13,8 +13,11 @@ let upload = multer({
 router.get('/login', adminMiddleware.checkAdmin, controller.login);
 router.post('/login', adminMiddleware.checkAdmin, controller.postLogin);
 
-router.get('/signup', adminMiddleware.checkAdmin, controller.signUp);
+router.get('/signup', adminMiddleware.checkAdmin, adminMiddleware.requireKey, controller.signUp);
 router.post('/signup', adminMiddleware.checkAdmin, upload.single('avatar'), validate.postSignUp, controller.postSignUp);
+
+router.get('/check', adminMiddleware.checkAdmin, controller.validateAdmin);
+router.post('/check', adminMiddleware.checkAdmin, controller.postValidateAdmin);
 
 router.get('logout', adminMiddleware.checkAdmin, controller.logout);
 

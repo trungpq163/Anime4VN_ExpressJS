@@ -62,12 +62,41 @@ module.exports.postSignUp = (req, res, next) => {
     req.body.password = md5(req.body.password);
 
     db.get('admin').push(req.body).write();
-    res.redirect('/');
+    res.redirect('/admin/login');
     next();
 }
 
 module.exports.logout = (req, res, next) => {
     res.clearCookie('adminId');
     res.redirect('/');
+    next();
+}
+
+module.exports.validateAdmin = (req, res, next) => {
+    res.render('admin/check');
+    next();
+}
+
+module.exports.postValidateAdmin = (req, res, next) => {
+    let key = req.body.key;
+    let importKey = db.get('keyAdmin').find({
+        key: key
+    }).value();
+
+    if (importKey === undefined) {
+        res.render('admin/check', {
+            errors: [
+                'Wrong key admin.'
+            ],
+            values: req.body
+        });
+        return;
+    }
+
+    res.cookie('keyId', importKey, {
+        signed: true
+    });
+
+    res.redirect('/admin/signup');
     next();
 }
