@@ -5,7 +5,7 @@ block content
     include ../includes/content/indexRoute/header
     .pt-5
     .container.font-default
-        h2.pt-5.mt-5 Tạo Items
+        h2.pt-5.mt-5 Cập Nhật Anime Mới ^^
 
         if errors
             each error in errors
@@ -18,7 +18,7 @@ block content
             
             .form-group
                 label(for="image") Image
-                input#image.form-control(name="image", type="text", value=values ? values.image : "")
+                input#image.form-control-file(name="image", type="file")
             
             .form-group
                 label(for="epUpdate") Tập mới nhất

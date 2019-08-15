@@ -38,7 +38,7 @@ app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
 app.use(`/admin`, adminRoute);
 app.use(`/search`, searchRoute);
-app.use(`/item`, itemUpdateRoute);
+app.use(`/items`, itemUpdateRoute);
 
 // listening on port
 app.listen(port, () => console.log(`App listening on port, ` + port));
