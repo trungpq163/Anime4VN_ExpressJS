@@ -24,17 +24,6 @@ module.exports.requireKey = (req, res, next) => {
         res.redirect('/admin/check');
         return;
     }
-
-    let keyAd = db.get('keyAdmin').find({
-        id: req.signedCookies.key
-    }).value();
-
-    if (!keyAd) {
-        res.redirect('admin/check');
-        return;
-    }
-
-    res.locals.keyAd = keyAd;
     next();
 }
 
