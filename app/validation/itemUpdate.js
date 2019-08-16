@@ -13,6 +13,10 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push('Bạn chưa nhập tập kết thúc.');
     }
 
+    if (!req.body.time) {
+        errors.push('Bạn chưa nhập thời gian anime');
+    }
+
     if (!req.file) {
         errors.push('Bạn chưa tải Image.');
     }

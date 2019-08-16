@@ -1,20 +1,23 @@
 .row.d-flex.justify-content-start
-    .col-xl-3.col-lg-4.col-md-6.col-sm-6.col-6.mb-4
-        .item-anime__update
-            a(href='#')
-            .overlay
+    each item in items
+        .col-xl-3.col-lg-4.col-md-6.col-sm-6.col-6.mb-4
+            .item-anime__update
                 a(href='#')
-                    .play-button
-                        img(src='/assets/images/play-button.png')
-                .info
+                .overlay
                     a(href='#')
-                    .title
+                        .play-button
+                            img(src='/assets/images/play-button.png')
+                    .info
                         a(href='#')
-                        a(href='#') OnePices
-                    .ep
-                        a(href='#') 5/??
-                .count
-                    .time-count
-                        .overlay-count
-                            i.far.fa-clock.fa-sm
-                            |  5:24
+                        .title
+                            a(href='#')
+                            a(href='#')= item.title
+                        .ep
+                            a(href='#')= item.epUpdate 
+                            a(href="#") /
+                            a(href='#')= item.epLast
+                    .count
+                        .time-count
+                            .overlay-count
+                                i.far.fa-clock.fa-sm
+                                    span= item.time 
