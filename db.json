@@ -1,5 +1,6 @@
 {
-  "users": [{
+  "users": [
+    {
       "name": "Phan Quốc Trung",
       "email": "miyucoder@gmail.com",
       "password": "ce72b9a28e700b0a9d77c91535f91cdd",
@@ -21,7 +22,8 @@
       "avatar": "uploads\\940391abfb49b83c3c20e4c89b53fedd"
     }
   ],
-  "admin": [{
+  "admin": [
+    {
       "name": "Phan Quốc Trung",
       "email": "adminmiyu@gmail.com",
       "password": "7af25da4cbf26f9c0f121585d176cf71",
@@ -43,14 +45,382 @@
       "avatar": "uploads\\780ccf0f3605b93fb55cdffc8b6ddab0"
     }
   ],
-  "keyAdmin": [{
-    "key": "phanquoctrungadmin"
-  }],
-  "items": [{
-    "title": "naruto",
-    "epUpdate": "1",
-    "epLast": "12",
-    "id": "J9f9ZtCoH",
-    "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
-  }]
+  "keyAdmin": [
+    {
+      "key": "phanquoctrungadmin"
+    }
+  ],
+  "items": [
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "naruto",
+      "epUpdate": "1",
+      "epLast": "12",
+      "id": "J9f9ZtCoH",
+      "image": "uploads\\462b0d4333ebdbe2abac1523de079b66"
+    },
+    {
+      "title": "onepices",
+      "epUpdate": "",
+      "epLast": "",
+      "id": "LwO1RdApH",
+      "image": "uploads\\8bf563202d71055746d12bf7543fe651"
+    },
+    {
+      "title": "",
+      "epUpdate": "",
+      "epLast": "",
+      "id": "EmDrrI-sv",
+      "image": "uploads\\a3afd3d254d155159c57353a1d7de910"
+    }
+  ]
 }

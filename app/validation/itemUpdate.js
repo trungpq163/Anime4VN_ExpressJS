@@ -5,10 +5,6 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push('Bạn chưa nhập title.');
     }
 
-    if (!req.file) {
-        errors.push('Bạn chưa tải Image.');
-    }
-
     if (!req.body.epUpdate) {
         errors.push('Bạn chưa nhập tập mới nhất.');
     }
@@ -17,8 +13,12 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push('Bạn chưa nhập tập kết thúc.');
     }
 
+    if (!req.file) {
+        errors.push('Bạn chưa tải Image.');
+    }
+
     if (errors.length > 0) {
-        res.render('items/create', {
+        res.render('itemsUpdate/create', {
             errors: errors,
             values: req.body
         });
