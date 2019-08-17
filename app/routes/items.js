@@ -10,6 +10,6 @@ let upload = multer({
 });
 
 router.get('/create', controller.createItems);
-router.post('/create', upload.single('image'), validate.postCreateItems, controller.postCreateItems);
+router.post('/create', upload.single('backGround'), validate.postCreateItems, controller.postCreateItems);
 
 module.exports = router;

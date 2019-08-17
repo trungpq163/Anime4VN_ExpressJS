@@ -332,5 +332,17 @@
       "image": "uploads\\1c6585de3b5289842a26f37f4b73206d"
     }
   ],
-  "itemsAnime": []
+  "itemsAnime": [
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    }
+  ]
 }

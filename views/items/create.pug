@@ -21,10 +21,6 @@ block content
                 input#ortherTitle.form-control(name="ortherTitle", type="text", value=values ? values.ortherTitle : "")
             
             .form-group
-                label(for="image") Image
-                input#image.form-control-file(name="image", type="file")
-            
-            .form-group
                 label(for="backGround") BackGround
                 input#backGround.form-control-file(name="backGround", type="file")
 
@@ -41,7 +37,11 @@ block content
                 input#genre.form-control(name="genre", type="text", value=values ? values.genre : "")
            
             .form-group
-                label(for="videos") Videos
-                input#videos.form-control(name="videos", type="text", value=values ? values.videos : "")
+                label(for="season") Mùa Anime
+                input#season.form-control(name="season", type="text", value=values ? values.season : "")
+
+            .form-group
+                label(for="year") Năm SX
+                input#year.form-control(name="year", type="text", value=values ? values.year : "")
 
             button.btn.btn-primary Create
