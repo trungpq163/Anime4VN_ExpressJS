@@ -1,14 +1,28 @@
 nav(aria-label='Page navigation example')
     ul.pagination.justify-content-end
-        li.page-item
-            a.page-link(href='#', aria-label='Previous')
-                span(aria-hidden='true') «
-        li.page-item.disabled
-            a.page-link.item-enable__color(href='#') 1
-        li.page-item
-            a.page-link(href='#') 2
-        li.page-item
-            a.page-link(href='#') 3
-        li.page-item
-            a.page-link(href='#', aria-label='Next')
-                span(aria-hidden='true') »
+        if(pageNow === 1)
+            li.page-item.disabled
+                a.page-link(href="#", aria-label='Previous')| «
+        else          
+            li.page-item
+                a.page-link(href= homePage + "/?page=" + pagePrev + querySearch)| «
+        if(dotBefore)
+            li.page-item
+                a.page-link(href= homePage + "/?page=1" + querySearch)| ...
+
+        each item in allPagesShow
+            if(pageNow === item)
+                li.page-item.disabled
+                    a.page-link.item-enable__color(href= homePage + "/?page="+ item + querySearch)=item
+            else
+                li.page-item
+                    a.page-link(href= homePage + "/?page="+ item + querySearch)=item
+        if(dotAfter)
+            li.page-item
+                a.page-link(href= homePage + "/?page=" + endPage + querySearch)| ...
+        if(pageNow === endPage)
+            li.page-item.disabled
+                a.page-link.item-enable__color(href="#")| »
+        else
+            li.page-item
+                a.page-link(href= homePage + "/?page=" + pageNext + querySearch)| »

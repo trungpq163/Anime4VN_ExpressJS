@@ -295,3 +295,7 @@
 .font-default {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.color_black {
+    color: black !important;
+}

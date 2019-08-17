@@ -9,7 +9,8 @@ db.defaults({
         users: [],
         admin: [],
         keyAdmin: [],
-        items: []
+        items: [],
+        itemsAnime: []
     })
     .write();
 

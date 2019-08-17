@@ -6,7 +6,7 @@ const cookieParser = require(`cookie-parser`);
 const path = require(`path`);
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 // require routes
 const indexRoute = require(`./app/routes/index`);
@@ -15,6 +15,7 @@ const userRoute = require(`./app/routes/user`);
 const adminRoute = require(`./app/routes/admin`);
 const searchRoute = require(`./app/routes/search`);
 const itemUpdateRoute = require(`./app/routes/itemsUpdate`);
+const itemRoute = require(`./app/routes/items`);
 
 // set template engine to using
 app.set(`views`, `./views`);
@@ -38,7 +39,8 @@ app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
 app.use(`/admin`, adminRoute);
 app.use(`/search`, searchRoute);
-app.use(`/items`, itemUpdateRoute);
+app.use(`/itemsUpdate`, itemUpdateRoute);
+app.use(`/items`, itemRoute);
 
 // listening on port
 app.listen(port, () => console.log(`App listening on port, ` + port));
