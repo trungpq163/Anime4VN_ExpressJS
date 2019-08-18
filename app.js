@@ -16,6 +16,7 @@ const adminRoute = require(`./app/routes/admin`);
 const searchRoute = require(`./app/routes/search`);
 const itemUpdateRoute = require(`./app/routes/itemsUpdate`);
 const itemRoute = require(`./app/routes/items`);
+const allAnimeRoute = require(`./app/routes/allAnime`);
 
 // set template engine to using
 app.set(`views`, `./views`);
@@ -41,6 +42,7 @@ app.use(`/admin`, adminRoute);
 app.use(`/search`, searchRoute);
 app.use(`/itemsUpdate`, itemUpdateRoute);
 app.use(`/items`, itemRoute);
+app.use(`/allAnime`, allAnimeRoute);
 
 // listening on port
 app.listen(port, () => console.log(`App listening on port, ` + port));

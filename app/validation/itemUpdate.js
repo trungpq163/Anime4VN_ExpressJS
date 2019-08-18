@@ -21,6 +21,10 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push('Bạn chưa tải Image.');
     }
 
+    if (!req.body.urlvideo) {
+        errors.push('Bạn chưa tải video lên');
+    }
+
     if (errors.length > 0) {
         res.render('itemsUpdate/create', {
             errors: errors,

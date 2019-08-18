@@ -8,8 +8,8 @@
     .row
         .col-12
             #custom-search-input
-                .input-group
-                    input.search-query.form-control(type='text', placeholder='Tìm kiếm anime (⁎˃ᆺ˂)')
+                form(action="/search/items", method="GET").input-group
+                    input.search-query.form-control(type='search', name="q", placeholder='Tìm kiếm anime (⁎˃ᆺ˂)')
                     span.input-group-btn
                         button(type='button', disabled='')
                             span.fa.fa-search

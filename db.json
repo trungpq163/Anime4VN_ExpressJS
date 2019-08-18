@@ -15,11 +15,11 @@
       "avatar": "uploads\\454453dd115c0ecf460fcc51ac517989"
     },
     {
-      "name": "testing",
-      "email": "test@gmail.com",
-      "password": "04ab8a24a7a4aaf2078583859feec3d8",
-      "id": "SKkXbP5Iq",
-      "avatar": "uploads\\940391abfb49b83c3c20e4c89b53fedd"
+      "name": "sasuke",
+      "email": "sasuke@gmail.com",
+      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "id": "QSmPDXUVV",
+      "avatar": "\\uploads\\87e60e28bd796ba751851126396f1b74"
     }
   ],
   "admin": [
@@ -28,21 +28,21 @@
       "email": "adminmiyu@gmail.com",
       "password": "7af25da4cbf26f9c0f121585d176cf71",
       "id": "MyaBfQk_O",
-      "avatar": "uploads\\111d6a22ea325efb857be1a618db238d"
+      "avatar": "\\uploads\\111d6a22ea325efb857be1a618db238d"
     },
     {
       "name": "sasuke",
       "email": "admin@dlu.edu.vn",
       "password": "7af25da4cbf26f9c0f121585d176cf71",
       "id": "-pGYfAbx0",
-      "avatar": "uploads\\0ab26a977396a47e9f94bde212304925"
+      "avatar": "\\uploads\\0ab26a977396a47e9f94bde212304925"
     },
     {
       "name": "khanh vuong",
       "email": "khanhvuong@gmail.com",
       "password": "f7299834f006cd0bd808d4ac40e86cb3",
       "id": "z2C8IfBXl",
-      "avatar": "uploads\\780ccf0f3605b93fb55cdffc8b6ddab0"
+      "avatar": "\\uploads\\780ccf0f3605b93fb55cdffc8b6ddab0"
     }
   ],
   "keyAdmin": [
@@ -57,7 +57,7 @@
       "epLast": "??",
       "time": "11:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -65,7 +65,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -73,7 +73,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -81,7 +81,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -89,7 +89,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -97,7 +97,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -105,7 +105,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -113,7 +113,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -121,7 +121,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -129,7 +129,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -137,7 +137,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -145,7 +145,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -153,7 +153,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -161,7 +161,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -169,7 +169,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -177,7 +177,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -185,7 +185,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -193,7 +193,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -201,7 +201,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -209,7 +209,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -217,7 +217,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -225,7 +225,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -233,7 +233,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -241,7 +241,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -249,7 +249,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -257,7 +257,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -265,7 +265,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -273,7 +273,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "Kimi no Nawa",
@@ -281,7 +281,7 @@
       "epLast": "??",
       "time": "21:00",
       "id": "hx9bhorCZ",
-      "image": "uploads\\7b8b17903ca99bfe234daa2542519d26"
+      "image": "\\uploads\\7b8b17903ca99bfe234daa2542519d26"
     },
     {
       "title": "onepices",
@@ -342,7 +342,95 @@
       "season": "Đông",
       "year": "2019",
       "id": "kqqDOEIpw",
-      "backGround": "uploads\\7a492167d7bffeed714d1dbe0761db8f"
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
+    },
+    {
+      "title": "naruto",
+      "ortherTitle": "this is a naruto",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "Action",
+      "season": "Đông",
+      "year": "2019",
+      "id": "kqqDOEIpw",
+      "backGround": "\\uploads\\7a492167d7bffeed714d1dbe0761db8f"
     }
   ]
 }

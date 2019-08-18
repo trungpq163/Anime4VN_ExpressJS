@@ -6,6 +6,8 @@ module.exports.index = (req, res, next) => {
     let querySearch = "";
 
     let users = db.get('users').value();
+
+    // item update
     let itemAll = db.get('items').value();
 
     let page = parseInt(req.query.page) || 1; // default 1
@@ -14,14 +16,28 @@ module.exports.index = (req, res, next) => {
     let start = (page - 1) * perPage;
     let end = page * perPage;
 
-    var item = [];
-    for (var i = itemAll.length - 1; i >= 0; i--) {
+    let item = [];
+    for (let i = itemAll.length - 1; i >= 0; i--) {
         item.push(itemAll[i]);
     }
 
     let items = item.slice(start, end);
 
-    // pagination
+    // item anime
+    let itemsAnimeAll = db.get('itemsAnime').value();
+
+    let perPageAnime = 8;
+    let startAnime = (page - 1) * perPageAnime;
+    let endAnime = page * perPageAnime;
+
+    let itemAnime = [];
+    for (let i = itemsAnimeAll.length - 1; i >= 0; i--) {
+        itemAnime.push(itemsAnimeAll[i]);
+    }
+
+    let itemsAnime = itemAnime.slice(startAnime, endAnime);
+
+    // pagination itemUpdate
     let countAllPages = Math.ceil(itemAll.length / perPage);
     let allPagesShow = [];
     let dotBefore = false;
@@ -86,6 +102,7 @@ module.exports.index = (req, res, next) => {
     res.render('index', {
         users: users,
         items: items,
+        itemsAnime: itemsAnime,
         // pagination
         pageNow: page,
         pagePrev: pagePrev,

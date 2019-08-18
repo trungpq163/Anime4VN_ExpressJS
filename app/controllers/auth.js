@@ -58,7 +58,7 @@ module.exports.postSignUp = (req, res, next) => {
 
     req.body.id = shortid.generate();
     // req.body.avatar = req.file.path.split('/').slice(1).join('/');
-    req.body.avatar = req.file.path.slice(7, lenghtAvatarPath);
+    req.body.avatar = req.file.path.slice(6, lenghtAvatarPath);
     req.body.password = md5(req.body.password);
 
     db.get('users').push(req.body).write();

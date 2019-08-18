@@ -9,7 +9,7 @@ module.exports.createItems = (req, res, next) => {
 module.exports.postCreateItems = (req, res, next) => {
     let lengthImagePath = (req.file.path).length;
     req.body.id = shortid.generate();
-    req.body.image = req.file.path.slice(7, lengthImagePath);
+    req.body.image = req.file.path.slice(6, lengthImagePath);
     db.get('items').push(req.body).write();
     res.redirect('/');
     next();
