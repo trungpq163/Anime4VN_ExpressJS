@@ -31,11 +31,14 @@ module.exports.index = (req, res, next) => {
     let endAnime = page * perPageAnime;
 
     let itemAnime = [];
-    for (let i = itemsAnimeAll.length - 1; i >= 0; i--) {
+    for (let i = itemsAnimeAll.length - 1; i >= itemsAnimeAll.length - 8; i--) {
         itemAnime.push(itemsAnimeAll[i]);
     }
 
-    let itemsAnime = itemAnime.slice(startAnime, endAnime);
+    //let itemsAnime = itemAnime.slice(startAnime, endAnime);
+    let itemsAnime = itemAnime;
+
+    // item anime random
 
     // pagination itemUpdate
     let countAllPages = Math.ceil(itemAll.length / perPage);
