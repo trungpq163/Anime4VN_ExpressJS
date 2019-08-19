@@ -7,9 +7,11 @@ module.exports.createItems = (req, res, next) => {
 }
 
 module.exports.postCreateItems = (req, res, next) => {
-    let lengthPath = (req.file.path).length;
+    let lengthPathBackGround = (req.files.backGround[0].path).length;
+    let lengthPathImage = (req.files.image[0].path).length;
     req.body.id = shortid.generate();
-    req.body.backGround = req.file.path.slice(6, lengthPath);
+    req.body.image = req.files.image[0].path.slice(6, lengthPathImage);
+    req.body.backGround = req.files.backGround[0].path.slice(6, lengthPathBackGround);
     db.get('itemsAnime').push(req.body).write();
     res.redirect('/');
     next();

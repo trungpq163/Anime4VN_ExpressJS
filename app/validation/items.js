@@ -6,11 +6,19 @@ module.exports.postCreateItems = (req, res, next) => {
     }
 
     if (!req.body.ortherTitle) {
-        errors.push('Bạn chưa nhập orther Title');
+        errors.push('Bạn chưa nhập orther Title.');
     }
 
-    if (!req.file) {
-        errors.push('Bạn chưa tải Background');
+    // if (!req.file) {
+    //     errors.push('Bạn chưa tải Image');
+    // }
+
+    if (!req.files.backGround) {
+        errors.push('Bạn chưa tải BackGround.');
+    }
+
+    if (!req.files.image) {
+        errors.push('Bạn chưa tải image.');
     }
 
     if (!req.body.scores) {

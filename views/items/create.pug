@@ -25,6 +25,10 @@ block content
                 input#backGround.form-control-file(name="backGround", type="file")
 
             .form-group
+                label(for="image") Image
+                input#image.form-control-file(name="image", type="file")
+
+            .form-group
                 label(for="scores") Scores
                 input#scores.form-control(name="scores", type="text", value=values ? values.scores : "")
             
