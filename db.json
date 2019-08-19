@@ -27,6 +27,13 @@
       "password": "7af25da4cbf26f9c0f121585d176cf71",
       "id": "rn0HBTwVI",
       "avatar": "\\uploads\\7ee4260059528b6ecf02c2159996f67a"
+    },
+    {
+      "name": "testing",
+      "email": "testing@gmail.com",
+      "password": "0872964c89292ae0189a2e350c806d74",
+      "id": "FA8q_EcqC",
+      "avatar": "\\uploads\\e591721233e367f37dfcb582cbc0ff53"
     }
   ],
   "admin": [
@@ -987,6 +994,18 @@
       "id": "wL6uEfVtS",
       "image": "\\uploads\\09e59ba7610dcb8cc513cfa383f09505",
       "backGround": "\\uploads\\a6b8990960e1e0476386c095261fad5e"
+    },
+    {
+      "title": "19/8/2019",
+      "ortherTitle": "jhgjhgakhgjak",
+      "scores": "10",
+      "status": "not complete",
+      "genre": "action",
+      "season": "dong",
+      "year": "2019",
+      "id": "8l1CFvLsG",
+      "image": "\\uploads\\ae806aa8b1b3f63955a8fd96bbec4b4c",
+      "backGround": "\\uploads\\6af906cd6b01a5fed589f0fee2ecf774"
     }
   ]
 }

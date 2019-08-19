@@ -39,6 +39,7 @@ module.exports.index = (req, res, next) => {
     let itemsAnime = itemAnime;
 
     // item anime random
+    var itemRandom = itemsAnimeAll[Math.floor(Math.random() * itemsAnimeAll.length)];
 
     // pagination itemUpdate
     let countAllPages = Math.ceil(itemAll.length / perPage);
@@ -106,6 +107,7 @@ module.exports.index = (req, res, next) => {
         users: users,
         items: items,
         itemsAnime: itemsAnime,
+        itemRandom: itemRandom,
         // pagination
         pageNow: page,
         pagePrev: pagePrev,
