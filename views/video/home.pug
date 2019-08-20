@@ -16,12 +16,13 @@ block content
                                 a.title-link(href='#')= " " + itemFind.title + "!" 
                                     | &nbsp; 
                                     i.fas.fa-angle-right
-                                a.title-link(href='#')= " Tập" + itemFind.epUpdate
+                                a.title-link(href='#')= " Tập " + itemFind.epUpdate
             // Close Tất Cả Anime
             .video-player.mt-3
                 div
                     div(style='position:relative; padding-bottom:56.25%; overflow:hidden;')
-                        iframe(src='https://drive.google.com/file/d/1Hm_0Hfw_XJ-tRPOj3IVYJLQVWQ4p0E62/preview', width='100%', height='100%', frameborder='0', scrolling='auto', allowfullscreen='', style='position:absolute;')
+                        .sizing
+                            iframe(src= itemFind.urlvideo, width='100%', height='100%', frameborder='0', scrolling='auto', allowfullscreen='', style='position:absolute;')
             center
                 .like-and-more.mb-5
                     .reload
