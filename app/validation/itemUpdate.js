@@ -25,6 +25,14 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push('Bạn chưa tải video lên');
     }
 
+    if (!req.body.epvideo) {
+        errors.push('Bạn chưa nhập url ep');
+    }
+
+    if (!req.body.url) {
+        errors.push('Bạn chưa nhập url');
+    }
+
     if (errors.length > 0) {
         res.render('itemsUpdate/create', {
             errors: errors,

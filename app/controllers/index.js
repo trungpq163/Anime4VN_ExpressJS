@@ -144,5 +144,23 @@ module.exports.info = (req, res, next) => {
 }
 
 module.exports.playvideo = (req, res, next) => {
+    let url = req.params.url;
+    let ep = req.params.ep;
+
+    let items = db.get('items').find({
+        url: url,
+        ep: ep
+    }).value();
+
+    let itemsAll = db.get('items').value();
+    let result = itemsAll.find(item => {
+        return item.url === url && item.epvideo === ep;
+    });
+
+    let itemstest = db.get('itemsAll').value();
+
+    res.render('video/home', {
+        items: items
+    });
     next();
 }

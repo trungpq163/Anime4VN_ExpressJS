@@ -1,0 +1,52 @@
+extends ../extends/layout
+
+block content
+    include ../includes/content/userRoute/header
+    // Content Page
+    .container.mt-5.pt-5
+        // Tất Cả Anime
+        .anime-all
+            .row
+                .col-12.col-lg-12.col-md-12.col-xl-12
+                    a.title-link(href='#')
+                        p.h5.mt-5.mb-3
+                            | t&#x1EA5;t c&#x1EA3; anime! &nbsp;
+                            i.fas.fa-angle-right
+                            a.title-link(href='#')
+                                | Senryuu Shoujo! &nbsp; 
+                                i.fas.fa-angle-right
+                            a.title-link(href='#')  t&#x1EAD;p 1 
+        // Close Tất Cả Anime
+        .video-player.mt-3
+            div
+                div(style='position:relative; padding-bottom:56.25%; overflow:hidden;')
+                    iframe(src='https://drive.google.com/file/d/1Hm_0Hfw_XJ-tRPOj3IVYJLQVWQ4p0E62/preview', width='100%', height='100%', frameborder='0', scrolling='auto', allowfullscreen='', style='position:absolute;')
+        center
+            .like-and-more.mb-5
+                .reload
+                    a(href='https://www.facebook.com/anitvdotga')
+                        button.btn.btn-light(type='button')
+                            | Report 
+                            i.fas.fa-exclamation-triangle
+                    a(href='./midara-na-ao-chan.html')
+                        button.btn.btn-light(type='button')
+                            | Previous 
+                            i.fas.fa-step-backward
+                    a(href='./midara-na-ao-chan.html')
+                        button.btn.btn-light(type='button')
+                            | Reload 
+                            i.fas.fa-redo
+                    a(href='./midara-na-ao-chan.html')
+                        button.btn.btn-light(type='button')
+                            | Next 
+                            i.fas.fa-step-forward
+                    a(href='https://drive.google.com/file/d/1Hm_0Hfw_XJ-tRPOj3IVYJLQVWQ4p0E62/view/', target='_blank')
+                        button.btn.btn-light(type='button')
+                            | Download 
+                            i.fas.fa-download
+    // Optional JavaScript
+    // jQuery first, then Popper.js, then Bootstrap JS
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+    script(src='./js/script.js')

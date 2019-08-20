@@ -6,5 +6,6 @@ const adminMiddleware = require('../middlewares/admin');
 
 router.get('/', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.index);
 router.get('/:url/', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.info);
+router.get('/:url/:ep', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.playvideo);
 
 module.exports = router;
