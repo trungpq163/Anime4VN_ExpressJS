@@ -132,35 +132,31 @@ module.exports.index = (req, res, next) => {
 module.exports.info = (req, res, next) => {
     let url = req.params.url;
 
-    let items = db.get('itemsAnime').find({
-        url: url
-    }).value();
+    let items = db
+        .get("itemsAnime")
+        .find({
+            url: url
+        })
+        .value();
 
-    res.render('info/index', {
+    res.render("info/index", {
         items: items
     });
 
     next();
-}
+};
 
 module.exports.playvideo = (req, res, next) => {
     let url = req.params.url;
     let ep = req.params.ep;
 
-    let items = db.get('items').find({
-        url: url,
-        ep: ep
-    }).value();
-
-    let itemsAll = db.get('items').value();
-    let result = itemsAll.find(item => {
+    let itemsAll = db.get("items").value();
+    let itemFind = itemsAll.find(item => {
         return item.url === url && item.epvideo === ep;
     });
 
-    let itemstest = db.get('itemsAll').value();
-
-    res.render('video/home', {
-        items: items
+    res.render("video/home", {
+        itemFind: itemFind,
     });
     next();
-}
+};
