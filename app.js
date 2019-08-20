@@ -24,9 +24,11 @@ app.set(`view engine`, `pug`);
 
 // using body-parser
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
+app.use(
+  bodyParser.urlencoded({
     extended: true
-}));
+  })
+);
 
 // using cookie-parser to save sessions login user
 app.use(cookieParser(process.env.SESSION_SECRET));

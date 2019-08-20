@@ -1,14 +1,13 @@
-const db = require('../../db');
+const db = require("../../db");
 
 module.exports.index = (req, res, next) => {
-
     let homePage = "";
     let querySearch = "";
 
-    let users = db.get('users').value();
+    let users = db.get("users").value();
 
     // item update
-    let itemAll = db.get('items').value();
+    let itemAll = db.get("items").value();
 
     let page = parseInt(req.query.page) || 1; // default 1
     let perPage = 12;
@@ -24,7 +23,7 @@ module.exports.index = (req, res, next) => {
     let items = item.slice(start, end);
 
     // item anime
-    let itemsAnimeAll = db.get('itemsAnime').value();
+    let itemsAnimeAll = db.get("itemsAnime").value();
 
     let perPageAnime = 8;
     let startAnime = (page - 1) * perPageAnime;
@@ -39,7 +38,15 @@ module.exports.index = (req, res, next) => {
     let itemsAnime = itemAnime;
 
     // item anime random
-    var itemRandom = itemsAnimeAll[Math.floor(Math.random() * itemsAnimeAll.length)];
+    let itemAnimeRandom = [];
+    //   var itemRandom =
+    //     itemsAnimeAll[Math.floor(Math.random() * itemsAnimeAll.length)];
+
+    for (let i = itemsAnimeAll.length - 1; i >= itemsAnimeAll.length - 8; i--) {
+        itemAnimeRandom.push(
+            itemsAnimeAll[Math.floor(Math.random() * itemsAnimeAll.length)]
+        );
+    }
 
     // pagination itemUpdate
     let countAllPages = Math.ceil(itemAll.length / perPage);
@@ -102,12 +109,11 @@ module.exports.index = (req, res, next) => {
         allPagesShow = [page - 2, page - 1, page];
     }
 
-
-    res.render('index', {
+    res.render("index", {
         users: users,
         items: items,
         itemsAnime: itemsAnime,
-        itemRandom: itemRandom,
+        itemAnimeRandom: itemAnimeRandom,
         // pagination
         pageNow: page,
         pagePrev: pagePrev,
@@ -120,5 +126,23 @@ module.exports.index = (req, res, next) => {
         querySearch: querySearch
         //
     });
+    next();
+};
+
+module.exports.info = (req, res, next) => {
+    let url = req.params.url;
+
+    let items = db.get('itemsAnime').find({
+        url: url
+    }).value();
+
+    res.render('info/index', {
+        items: items
+    });
+
+    next();
+}
+
+module.exports.playvideo = (req, res, next) => {
     next();
 }
