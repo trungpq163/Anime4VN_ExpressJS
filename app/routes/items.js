@@ -2,6 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const controller = require('../controllers/items');
 const validate = require('../validation/items');
+const adminMiddleware = require('../middlewares/admin');
 
 const router = express.Router();
 
@@ -9,7 +10,7 @@ let upload = multer({
     dest: './public/uploads/'
 });
 
-router.get('/create', controller.createItems);
+router.get('/create', adminMiddleware.validate, controller.createItems);
 //router.post('/create', upload.single('backGround'), validate.postCreateItems, controller.postCreateItems);
 router.post('/create', upload.fields([{
     name: 'backGround',

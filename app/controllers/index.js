@@ -160,3 +160,15 @@ module.exports.playvideo = (req, res, next) => {
     });
     next();
 };
+
+module.exports.genre = (req, res, next) => {
+    let genreRoute = req.params.genre;
+    let items = db.get('itemsAnime').filter({
+        genre: genreRoute
+    }).value();
+
+    res.render('genre/home', {
+        items: items
+    })
+    next();
+}

@@ -7,5 +7,6 @@ const adminMiddleware = require('../middlewares/admin');
 router.get('/', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.index);
 router.get('/anime/:url/', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.info);
 router.get('/anime/:url/:ep', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.playvideo);
+router.get('/genre/:genre', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.genre);
 
 module.exports = router;
