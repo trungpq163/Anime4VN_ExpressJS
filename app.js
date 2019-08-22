@@ -6,7 +6,7 @@ const cookieParser = require(`cookie-parser`);
 const path = require(`path`);
 
 const app = express();
-const port = 5000;
+const port = 8000;
 
 // require routes
 const indexRoute = require(`./app/routes/index`);
@@ -25,9 +25,9 @@ app.set(`view engine`, `pug`);
 // using body-parser
 app.use(bodyParser.json());
 app.use(
-  bodyParser.urlencoded({
-    extended: true
-  })
+    bodyParser.urlencoded({
+        extended: true
+    })
 );
 
 // using cookie-parser to save sessions login user

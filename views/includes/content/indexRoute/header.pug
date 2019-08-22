@@ -203,14 +203,120 @@ nav.navbar.navbar-expand-xl.navbar-light.fixed-top.border-bottom.shadow-sm.font-
                 li.nav-item
                     a.nav-link(href='/search')
                         | tìm kiếm
-        if user
-            a.navbar-brand(href='/user/' + user.id)
-                img.rounded-circle(style='border: 1px solid #d3d3d3;', src=user.avatar, alt='logo', width='50px', height='50px')
-            a(href="/auth/logout") log-out
+        //- if user
+        //-     a.navbar-brand(href='/user/' + user.id)
+        //-         img.rounded-circle(style='border: 1px solid #d3d3d3;', src=user.avatar, alt='logo', width='50px', height='50px')
+        //-     a(href="/auth/logout") log-out
+        //- else if admin
+        //-     a.navbar-brand(href='/admin/' + admin.id)
+        //-         img.rounded-circle(style='border: 1px solid #d3d3d3;', src=admin.avatar, alt='logo', width='50px', height='50px')
+        //-     a(href="/auth/logout") log-out
+        if user 
+            ul.navbar-nav.ml-auto
+                li.nav-item.dropdown
+                    a.navbar-brand#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                        img.rounded-circle(style='border: 1px solid #d3d3d3;', src=user.avatar, alt='logo', width='50px', height='50px')
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                        .container
+                                .row
+                                    .col
+                                        table
+                                            tbody
+                                                tr
+                                                    td
+                                                        table
+                                                            tbody
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/user/' + user.id)
+                                                                            i.fas.fa-user
+                                                                            span= " "
+                                                                            |
+                                                                            span Trang cá nhân
+                                                                
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/user/' + user.id)
+                                                                            i.fas.fa-heart
+                                                                            span= " "
+                                                                            |
+                                                                            span Anime Đã yêu thích
+
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/year/2016')
+                                                                            i.fas.fa-unlock-alt
+                                                                            span= " "
+                                                                            |
+                                                                            span Đổi mật khẩu
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/auth/logout')
+                                                                            i.fas.fa-power-off
+                                                                            span= " "
+                                                                            |
+                                                                            span Thoát
+
         else if admin
-            a.navbar-brand(href='/admin/' + admin.id)
-                img.rounded-circle(style='border: 1px solid #d3d3d3;', src=admin.avatar, alt='logo', width='50px', height='50px')
-            a(href="/admin/logout") log-out
+            ul.navbar-nav.ml-auto
+                li.nav-item.dropdown
+                    a.navbar-brand#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                        img.rounded-circle(style='border: 1px solid #d3d3d3;', src=admin.avatar, alt='logo', width='50px', height='50px')
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                        .container
+                                .row
+                                    .col
+                                        table
+                                            tbody
+                                                tr
+                                                    td
+                                                        table
+                                                            tbody
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/admin/' + admin.id)
+                                                                            i.fas.fa-user
+                                                                            span= " "
+                                                                            |
+                                                                            span Trang cá nhân
+                                                                
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/admin/' + admin.id)
+                                                                            i.fas.fa-heart
+                                                                            span= " "
+                                                                            |
+                                                                            span Anime Đã yêu thích
+
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/items/create')
+                                                                            i.fas.fa-user-cog
+                                                                            span= " "
+                                                                            |
+                                                                            span Thêm Anime Mới
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/itemsupdate/create')
+                                                                            i.fas.fa-user-cog
+                                                                            span= " "
+                                                                            |
+                                                                            span Cập nhật Tập Mới Anime
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/year/2016')
+                                                                            i.fas.fa-unlock-alt
+                                                                            span= " "
+                                                                            |
+                                                                            span Đổi mật khẩu
+                                                                tr
+                                                                    td
+                                                                        a.dropdown-item(href='/admin/logout')
+                                                                            i.fas.fa-power-off
+                                                                            span= " "
+                                                                            |
+                                                                            span Thoát
+                
         else
             a.navbar-brand(href='/user/')
                 img.rounded-circle(style='border: 1px solid #d3d3d3;', src='/assets/images/akari.jpg', alt='logo', width='50px', height='50px')

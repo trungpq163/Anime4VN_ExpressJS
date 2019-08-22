@@ -36,7 +36,6 @@ module.exports.index = (req, res, next) => {
 
     //let itemsAnime = itemAnime.slice(startAnime, endAnime);
     let itemsAnime = itemAnime;
-
     // item anime random
     let itemAnimeRandom = [];
     //   var itemRandom =

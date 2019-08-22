@@ -33,6 +33,10 @@ module.exports.postCreateItems = (req, res, next) => {
         errors.push("Bạn chưa nhập thể loại");
     }
 
+    if (!req.body.genreOrther) {
+        errors.push('Bạn chưa nhập thể loại khác');
+    }
+
     if (!req.body.season) {
         errors.push("Bạn chưa nhập mùa anime");
     }
