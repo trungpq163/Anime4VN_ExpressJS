@@ -169,6 +169,28 @@ module.exports.genre = (req, res, next) => {
 
     res.render('genre/home', {
         items: items
-    })
+    });
     next();
-}
+};
+
+module.exports.season = (req, res, next) => {
+    let seasonRoute = req.params.season;
+    let items = db.get('itemsAnime').filter({
+        season: seasonRoute
+    }).value();
+    res.render('season/home', {
+        items: items
+    });
+    next();
+};
+
+module.exports.year = (req, res, next) => {
+    let yearRoute = req.params.year;
+    let items = db.get('itemsAnime').filter({
+        year: yearRoute
+    }).value();
+    res.render('year/home', {
+        items: items
+    });
+    next();
+};
