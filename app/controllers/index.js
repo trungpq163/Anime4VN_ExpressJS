@@ -161,9 +161,14 @@ module.exports.playvideo = (req, res, next) => {
 
     let lengthCountItemsPagination = countItemsPagination.length;
 
+    let countItemsArr = [];
+    for (let i = 1; i < lengthCountItemsPagination; i++) {
+        countItemsArr = i;
+    }
+
     res.render("video/home", {
         itemFind: itemFind,
-        lengthCountItemsPagination: lengthCountItemsPagination
+        countItemsPagination: countItemsPagination
     });
     next();
 };

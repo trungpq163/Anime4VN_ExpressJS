@@ -123,7 +123,7 @@
       "epUpdate": "1",
       "epLast": "??",
       "time": "22:30",
-      "urlvideo": "https://drive.google.com/file/d/1XRU85-HR6vcdvWgC6EuUg6LPYdDla98r/view",
+      "urlvideo": "https://drive.google.com/file/d/1XRU85-HR6vcdvWgC6EuUg6LPYdDla98r/preview",
       "epvideo": "tap-1",
       "url": "senryuu-shoujo",
       "id": "qliz1Bxzb",
@@ -270,6 +270,20 @@
       "id": "e_e-b-KS_",
       "image": "/uploads/54d1edfbede712d44aadee105ec81436",
       "backGround": "/uploads/cd037e6bec0740e9086097bc8480f579"
+    },
+    {
+      "title": "Sword Art Online: Alicization",
+      "ortherTitle": "ソードアート・オンライン アリシゼーション",
+      "scores": "9.3",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "drama, horror",
+      "season": "spring",
+      "year": "2019",
+      "url": "sword-art-online-alicization",
+      "id": "fp_d6Y09A",
+      "image": "/uploads/0d7cff6acdd0e10355cf3d6b95e1343d",
+      "backGround": "/uploads/5c06a91e8786201ed3f639d409d23db1"
     }
   ]
 }
