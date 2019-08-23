@@ -117,6 +117,17 @@
       "url": "tejina-senpai",
       "id": "ekHbi-NNm",
       "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "1",
+      "epLast": "??",
+      "time": "22:30",
+      "urlvideo": "https://drive.google.com/file/d/1XRU85-HR6vcdvWgC6EuUg6LPYdDla98r/view",
+      "epvideo": "tap-1",
+      "url": "senryuu-shoujo",
+      "id": "qliz1Bxzb",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
     }
   ],
   "itemsAnime": [
@@ -231,6 +242,34 @@
       "id": "BkEgZ66nd",
       "image": "/uploads/b6826c1b34e623fddc7315f366b81628",
       "backGround": "/uploads/97077a39cb7110320c8f634c86fccee2"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "ortherTitle": "川柳少女",
+      "scores": "9.5",
+      "status": "Complete",
+      "genre": "comedy",
+      "genreOrther": "school",
+      "season": "spring",
+      "year": "2018",
+      "url": "senryuu-shoujo",
+      "id": "IUlSi7Q5Q",
+      "image": "/uploads/169d6173957c62c8b3b627e981af5419",
+      "backGround": "/uploads/12f23e20e09075e20065723d497cf943"
+    },
+    {
+      "title": "Rakudai Kishi no Cavalry",
+      "ortherTitle": "落第騎士の英雄譚",
+      "scores": "10",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "school, drama",
+      "season": "spring",
+      "year": "2016",
+      "url": "rakudai-kishi-no-cavalry",
+      "id": "e_e-b-KS_",
+      "image": "/uploads/54d1edfbede712d44aadee105ec81436",
+      "backGround": "/uploads/cd037e6bec0740e9086097bc8480f579"
     }
   ]
 }

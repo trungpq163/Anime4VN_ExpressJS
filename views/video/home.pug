@@ -1,7 +1,7 @@
 extends ../extends/layout
 
 block content
-    include ../includes/content/userRoute/header
+    include ../includes/content/indexRoute/header
     // Content Page
     .container.mt-5.pt-5
         if itemFind
@@ -46,9 +46,3 @@ block content
                             button.btn.btn-light(type='button')
                                 | Download 
                                 i.fas.fa-download
-    // Optional JavaScript
-    // jQuery first, then Popper.js, then Bootstrap JS
-    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
-    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
-    script(src='./js/script.js')

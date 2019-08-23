@@ -154,8 +154,16 @@ module.exports.playvideo = (req, res, next) => {
         return item.url === url && item.epvideo === ep;
     });
 
+    // pagination
+    let countItemsPagination = db.get('items').filter({
+        url: url
+    }).value();
+
+    let lengthCountItemsPagination = countItemsPagination.length;
+
     res.render("video/home", {
         itemFind: itemFind,
+        lengthCountItemsPagination: lengthCountItemsPagination
     });
     next();
 };
