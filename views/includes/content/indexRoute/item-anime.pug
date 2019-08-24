@@ -12,3 +12,8 @@
                                 a(href='#')= item.title
                             .ep
                                 a(href='#')= item.status 
+                        a(href="/favorite/anime/" + item.id)
+                            .count
+                                .view-count(style="color: white; font-size: 150%;")
+                                    .overlay-count
+                                        i.far.fa-heart.fa-sm

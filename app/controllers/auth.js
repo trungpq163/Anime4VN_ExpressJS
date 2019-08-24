@@ -71,3 +71,56 @@ module.exports.logout = function (req, res, next) {
     res.redirect('/');
     next();
 }
+
+module.exports.changePass = (req, res, next) => {
+    res.render('auth/change');
+    next();
+}
+
+module.exports.putChangePass = (req, res, next) => {
+    let id = req.signedCookies.userId;
+    let password = req.body.password;
+    let newPassword = req.body.newPassword;
+    let reNewPassword = req.body.reNewPassword;
+    let md5NewPassword = md5(newPassword);
+
+    let user = db.get('users').find({
+        id: id
+    }).value();
+
+    if (user.password !== password) {
+        let hashedPassword = md5(password);
+        if (user.password !== hashedPassword) {
+            res.render('auth/change', {
+                errors: [
+                    'Wrong password.'
+                ],
+                values: req.body
+            });
+            return;
+        }
+    }
+
+    if (newPassword !== reNewPassword) {
+        res.render('auth/change', {
+            errors: [
+                'Wrong new password.'
+            ],
+            values: req.body
+        });
+        return;
+    }
+
+    // change password
+    db.get('users')
+        .find({
+            id: id
+        })
+        .assign({
+            password: md5NewPassword
+        })
+        .write();
+
+    res.redirect('/');
+    next();
+}

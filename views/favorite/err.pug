@@ -1,0 +1,10 @@
+extends ../extends/layout
+
+block content
+    //- header
+    include ../includes/content/indexRoute/header
+    .pt-5.pd-5
+    .container.font-default.pt-5
+        if errors
+            each error in errors
+                .alert.alert-danger= error

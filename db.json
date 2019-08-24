@@ -3,7 +3,7 @@
     {
       "name": "Khanh Vuong",
       "email": "khanhvuong@gmail.com",
-      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "password": "615a4027c10c9e20d3cfa4c0623b38b9",
       "id": "tMKO0tXla",
       "avatar": "/uploads/b804480d193fbd65015fc150a5843727"
     }
@@ -284,6 +284,98 @@
       "id": "fp_d6Y09A",
       "image": "/uploads/0d7cff6acdd0e10355cf3d6b95e1343d",
       "backGround": "/uploads/5c06a91e8786201ed3f639d409d23db1"
+    }
+  ],
+  "favorite": [
+    {
+      "userId": "tMKO0tXla",
+      "id": "fp_d6Y09A",
+      "title": "Sword Art Online: Alicization",
+      "ortherTitle": "ソードアート・オンライン アリシゼーション",
+      "scores": "9.3",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "drama, horror",
+      "season": "spring",
+      "year": "2019",
+      "url": "sword-art-online-alicization",
+      "image": "/uploads/0d7cff6acdd0e10355cf3d6b95e1343d",
+      "backGround": "/uploads/5c06a91e8786201ed3f639d409d23db1"
+    },
+    {
+      "userId": "tMKO0tXla",
+      "id": "e_e-b-KS_",
+      "title": "Rakudai Kishi no Cavalry",
+      "ortherTitle": "落第騎士の英雄譚",
+      "scores": "10",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "school, drama",
+      "season": "spring",
+      "year": "2016",
+      "url": "rakudai-kishi-no-cavalry",
+      "image": "/uploads/54d1edfbede712d44aadee105ec81436",
+      "backGround": "/uploads/cd037e6bec0740e9086097bc8480f579"
+    },
+    {
+      "userId": "tMKO0tXla",
+      "id": "IUlSi7Q5Q",
+      "title": "Senryuu Shoujo",
+      "ortherTitle": "川柳少女",
+      "scores": "9.5",
+      "status": "Complete",
+      "genre": "comedy",
+      "genreOrther": "school",
+      "season": "spring",
+      "year": "2018",
+      "url": "senryuu-shoujo",
+      "image": "/uploads/169d6173957c62c8b3b627e981af5419",
+      "backGround": "/uploads/12f23e20e09075e20065723d497cf943"
+    },
+    {
+      "userId": "tMKO0tXla",
+      "id": "BkEgZ66nd",
+      "title": "Overlord",
+      "ortherTitle": "オーバーロード",
+      "scores": "9.6",
+      "status": "??",
+      "genre": "action",
+      "genreOrther": "adventure, magic",
+      "season": "summer",
+      "year": "2015",
+      "url": "overlord",
+      "image": "/uploads/b6826c1b34e623fddc7315f366b81628",
+      "backGround": "/uploads/97077a39cb7110320c8f634c86fccee2"
+    },
+    {
+      "userId": "tMKO0tXla",
+      "id": "tELBN7Gnx",
+      "title": "Owari no Seraph",
+      "ortherTitle": "終わりのセラフ",
+      "scores": "9.5",
+      "status": "Complete",
+      "genre": "vampire",
+      "genreOrther": "action, drama",
+      "season": "spring",
+      "year": "2015",
+      "url": "owari-no-seraph",
+      "image": "/uploads/96ef999d8b83b0a9b6c9503207c090bd",
+      "backGround": "/uploads/0551f223000db1670d83bb87474d7b85"
+    },
+    {
+      "userId": "tMKO0tXla",
+      "id": "665tTs68n",
+      "title": "Tokyo Ghoul",
+      "ortherTitle": "東京喰種-トーキョーグール-",
+      "scores": "9.7",
+      "status": "complete",
+      "genre": "action",
+      "genreOrther": "drama, horror,",
+      "season": "summer",
+      "year": "2014",
+      "url": "tokyo-ghoul",
+      "image": "/uploads/ff34a7bdfe2c859524930fedc30b33b0",
+      "backGround": "/uploads/9bebd86474e6458e485712bac8428006"
     }
   ]
 }

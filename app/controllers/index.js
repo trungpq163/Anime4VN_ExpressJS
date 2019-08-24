@@ -206,3 +206,47 @@ module.exports.year = (req, res, next) => {
     });
     next();
 };
+
+module.exports.favorite = (req, res, next) => {
+    let animeId = req.params.id;
+    let userId = req.signedCookies.userId;
+    let anime = db.get('itemsAnime').find({
+        id: animeId
+    }).value();
+
+    // validate data
+    let favorite = db.get('favorite').find({
+        userId: userId,
+        id: animeId
+    }).value();
+
+    if (favorite !== undefined) {
+        res.render('favorite/err', {
+            errors: [
+                'Bạn đã thêm phim này rùi.'
+            ],
+            values: req.body
+        });
+        return;
+    }
+
+    // write date
+    db.get('favorite')
+        .push({
+            userId: userId,
+            id: anime.id,
+            title: anime.title,
+            ortherTitle: anime.ortherTitle,
+            scores: anime.scores,
+            status: anime.status,
+            genre: anime.genre,
+            genreOrther: anime.genreOrther,
+            season: anime.season,
+            year: anime.year,
+            url: anime.url,
+            image: anime.image,
+            backGround: anime.backGround
+        }).write();
+
+    res.redirect('/anime/' + anime.url);
+}

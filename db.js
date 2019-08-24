@@ -10,7 +10,8 @@ db.defaults({
         admin: [],
         keyAdmin: [],
         items: [],
-        itemsAnime: []
+        itemsAnime: [],
+        favorite: []
     })
     .write();
 

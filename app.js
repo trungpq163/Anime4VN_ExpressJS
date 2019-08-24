@@ -1,6 +1,7 @@
 // require modules
 require(`dotenv`).config();
 const express = require(`express`);
+const methodOveride = require(`method-override`)
 const bodyParser = require(`body-parser`);
 const cookieParser = require(`cookie-parser`);
 const path = require(`path`);
@@ -22,6 +23,7 @@ const allAnimeRoute = require(`./app/routes/allAnime`);
 app.set(`views`, `./views`);
 app.set(`view engine`, `pug`);
 
+
 // using body-parser
 app.use(bodyParser.json());
 app.use(
@@ -32,6 +34,10 @@ app.use(
 
 // using cookie-parser to save sessions login user
 app.use(cookieParser(process.env.SESSION_SECRET));
+
+// using method-override
+// override with the X-HTTP-Method-Override header in the request
+app.use(methodOveride(`_method`));
 
 // using static files
 app.use(express.static(path.join(__dirname, `public`)));
