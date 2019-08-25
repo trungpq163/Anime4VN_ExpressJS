@@ -273,3 +273,22 @@ module.exports.userFavorite = (req, res, next) => {
     });
     next();
 }
+
+module.exports.getDeleteFavorite = (req, res, next) => {
+    let userId = req.signedCookies.userId;
+    let animeId = req.params.id;
+
+    let favoriteItem = db.get('favorite').find({
+        userId: userId,
+        id: animeId
+    }).value();
+
+    db.get('favorite')
+        .remove({
+            id: favoriteItem.id
+        })
+        .write();
+
+    res.redirect('/');
+    next();
+}

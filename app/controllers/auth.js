@@ -153,6 +153,26 @@ module.exports.putForgotPass = (req, res, next) => {
         return;
     }
 
+    // check rePassword
+    if (newPass !== reNewPass) {
+        res.render('auth/forgot', {
+            errors: [
+                'Nhập lại sai pass, vui lòng nhập lại.'
+            ],
+            values: req.body
+        });
+        return;
+    }
+
+    // change password
+    db.get('users').find({
+            id: user.id
+        })
+        .assign({
+            password: md5NewPass
+        })
+        .write();
+
     res.redirect('/');
     next();
 }
