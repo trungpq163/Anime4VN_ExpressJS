@@ -43,6 +43,7 @@ app.use(methodOveride(`_method`));
 app.use(express.static(path.join(__dirname, `public`)));
 
 // using routes file
+
 app.use(`/`, indexRoute);
 app.use(`/auth`, authRoute);
 app.use(`/user`, userRoute);
@@ -51,28 +52,10 @@ app.use(`/search`, searchRoute);
 app.use(`/itemsUpdate`, itemUpdateRoute);
 app.use(`/items`, itemRoute);
 app.use(`/allAnime`, allAnimeRoute);
-app.use(function (req, res, next) {
-    res.status(404);
 
-    // respond with html page
-    if (req.accepts('html')) {
-        res.render('404', {
-            url: req.url
-        });
-        return;
-    }
-
-    // respond with json
-    if (req.accepts('json')) {
-        res.send({
-            error: 'Not found'
-        });
-        return;
-    }
-
-    // default to plain-text. send()
-    res.type('txt').send('Not found');
+app.use(function (req, res) {
+    res.status(404).end('eror');
+    res.render('404');
 });
-
 // listening on port
 app.listen(port, () => console.log(`App listening on port, ` + port));

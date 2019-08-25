@@ -137,6 +137,8 @@ module.exports.index = (req, res, next) => {
         //
         arrFavorite: arrFavorite
     });
+
+
     next();
 };
 
