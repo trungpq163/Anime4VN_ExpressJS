@@ -124,3 +124,35 @@ module.exports.putChangePass = (req, res, next) => {
     res.redirect('/');
     next();
 }
+
+module.exports.forgotPass = (req, res, next) => {
+    res.render('auth/forgot')
+    next();
+}
+
+module.exports.putForgotPass = (req, res, next) => {
+    let email = req.body.email;
+    let name = req.body.name;
+    let newPass = req.body.newPassword;
+    let reNewPass = req.body.reNewPassword;
+    let md5NewPass = md5(newPass);
+
+    let user = db.get('users').find({
+        email: email,
+        name: name
+    }).value();
+
+    // check user
+    if (user === undefined) {
+        res.render('auth/forgot', {
+            errors: [
+                'User underfinded'
+            ],
+            values: req.body
+        });
+        return;
+    }
+
+    res.redirect('/');
+    next();
+}

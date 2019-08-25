@@ -108,6 +108,17 @@ module.exports.index = (req, res, next) => {
         allPagesShow = [page - 2, page - 1, page];
     }
 
+    // favorite
+    let userId = req.signedCookies.userId;
+    let userFavorite = db.get('favorite').filter({
+        userId: userId
+    }).value();
+
+    let arrFavorite = [];
+    for (let i = 0; i < userFavorite.length; i++) {
+        arrFavorite.push(userFavorite[i].url);
+    }
+
     res.render("index", {
         users: users,
         items: items,
@@ -122,8 +133,9 @@ module.exports.index = (req, res, next) => {
         dotAfter: dotAfter,
         dotBefore: dotBefore,
         homePage: homePage,
-        querySearch: querySearch
+        querySearch: querySearch,
         //
+        arrFavorite: arrFavorite
     });
     next();
 };
@@ -248,5 +260,16 @@ module.exports.favorite = (req, res, next) => {
             backGround: anime.backGround
         }).write();
 
-    res.redirect('/anime/' + anime.url);
+    res.redirect('/favorite/user/' + userId);
+}
+
+module.exports.userFavorite = (req, res, next) => {
+    let userId = req.params.id;
+    let items = db.get('favorite').filter({
+        userId: userId,
+    }).value();
+    res.render('favorite/home', {
+        items: items,
+    });
+    next();
 }

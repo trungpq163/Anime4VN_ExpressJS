@@ -1,0 +1,14 @@
+extends ../extends/layout
+
+block content
+    //- header
+    include ../includes/content/indexRoute/header
+
+    .container.mt-5.pt-5
+        //- anime all
+        .anime-all
+            include ../includes/content/indexRoute/title
+            include ../includes/content/favoriteRoute/item
+
+        //- footer
+        include ../includes/footer

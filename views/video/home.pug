@@ -30,19 +30,19 @@ block content
                             button.btn.btn-light(type='button')
                                 | Report 
                                 i.fas.fa-exclamation-triangle
-                        a(href='#')
+                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate - 1))
                             button.btn.btn-light(type='button')
                                 | Previous 
                                 i.fas.fa-step-backward
-                        a(href='#')
+                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate))
                             button.btn.btn-light(type='button')
                                 | Reload 
                                 i.fas.fa-redo
-                        a(href='#')
+                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate -1 + 2))
                             button.btn.btn-light(type='button')
                                 | Next 
                                 i.fas.fa-step-forward
-                        a(href='https://drive.google.com/file/d/1Hm_0Hfw_XJ-tRPOj3IVYJLQVWQ4p0E62/view/', target='_blank')
+                        a(href= itemFind.urlvideo, target='_blank')
                             button.btn.btn-light(type='button')
                                 | Download 
                                 i.fas.fa-download

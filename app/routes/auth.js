@@ -19,6 +19,9 @@ router.post('/signup', upload.single('avatar'), validate.postSignUp, controller.
 router.get('/change', authMiddleware.checkAuth, controller.changePass);
 router.put('/change', authMiddleware.checkAuth, controller.putChangePass);
 
+router.get('/forgot', authMiddleware.checkAuth, controller.forgotPass);
+router.put('/forgot', authMiddleware.checkAuth, controller.putForgotPass);
+
 router.get('/logout', authMiddleware.checkAuth, controller.logout);
 
 module.exports = router;

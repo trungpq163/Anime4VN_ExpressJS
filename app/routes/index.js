@@ -10,6 +10,7 @@ router.get('/anime/:url/:ep', authMiddleware.checkAuth, adminMiddleware.checkAdm
 router.get('/genre/:genre', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.genre);
 router.get('/season/:season', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.season);
 router.get('/year/:year', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.year);
-router.get('/favorite/anime/:id', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.favorite);
+router.get('/favorite/anime/:id', authMiddleware.requireAuth, adminMiddleware.checkAdmin, authMiddleware.checkAuth, controller.favorite);
+router.get('/favorite/user/:id', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.userFavorite);
 
 module.exports = router;
