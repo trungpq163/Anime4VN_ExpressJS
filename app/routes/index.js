@@ -13,5 +13,5 @@ router.get('/year/:year', authMiddleware.checkAuth, adminMiddleware.checkAdmin, 
 router.get('/favorite/anime/:id', authMiddleware.requireAuth, adminMiddleware.checkAdmin, authMiddleware.checkAuth, controller.favorite);
 router.get('/favorite/user/:id', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.userFavorite);
 router.get('/delete/favorite/anime/:id', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.getDeleteFavorite);
-
+router.get('/view/count/:id/:ep', authMiddleware.checkAuth, adminMiddleware.checkAdmin, controller.viewCount);
 module.exports = router;

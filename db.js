@@ -11,7 +11,8 @@ db.defaults({
         keyAdmin: [],
         items: [],
         itemsAnime: [],
-        favorite: []
+        favorite: [],
+        view: []
     })
     .write();
 

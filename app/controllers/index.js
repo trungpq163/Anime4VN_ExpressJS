@@ -294,3 +294,12 @@ module.exports.getDeleteFavorite = (req, res, next) => {
     res.redirect('/');
     next();
 }
+
+module.exports.viewCount = (req, res, next) => {
+    let animeId = req.params.id;
+    let animeEp = req.params.ep;
+
+    db.get('view').set('id')
+
+    res.redirect('/anime/' + animeId + "/" + animeEp);
+}
