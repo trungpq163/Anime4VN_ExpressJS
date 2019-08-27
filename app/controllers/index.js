@@ -110,26 +110,36 @@ module.exports.index = (req, res, next) => {
 
     // favorite
     let userId = req.signedCookies.userId;
-    let userFavorite = db.get('favorite').filter({
-        userId: userId
-    }).value();
+    let userFavorite = db
+        .get("favorite")
+        .filter({
+            userId: userId
+        })
+        .value();
 
     let arrFavorite = [];
     for (let i = 0; i < userFavorite.length; i++) {
         arrFavorite.push(userFavorite[i].url);
     }
 
-    // view count 
-    let urlItemAnime = db.get('itemsAnime').value();
+    // view count
+    let urlItemAnime = db.get("itemsAnime").value();
 
     let arrAnime = [];
     for (let i = 0; i < urlItemAnime.length; i++) {
         arrAnime.push(urlItemAnime[i].url);
     }
 
-    let viewCount = db.get('view').filter({
-        number: "1"
-    }).value();
+    let viewCount = db
+        .get("view")
+        .filter({
+            number: "1"
+        })
+        .value();
+
+    let arrCountView = [];
+
+    arrCountView.push(viewCount[0].count);
 
     res.render("index", {
         users: users,
@@ -147,9 +157,9 @@ module.exports.index = (req, res, next) => {
         homePage: homePage,
         querySearch: querySearch,
         //
-        arrFavorite: arrFavorite
+        arrFavorite: arrFavorite,
+        arrCountView: arrCountView
     });
-
 
     next();
 };
@@ -181,9 +191,12 @@ module.exports.playvideo = (req, res, next) => {
     });
 
     // pagination
-    let countItemsPagination = db.get('items').filter({
-        url: url
-    }).value();
+    let countItemsPagination = db
+        .get("items")
+        .filter({
+            url: url
+        })
+        .value();
 
     let lengthCountItemsPagination = countItemsPagination.length;
 
@@ -201,11 +214,14 @@ module.exports.playvideo = (req, res, next) => {
 
 module.exports.genre = (req, res, next) => {
     let genreRoute = req.params.genre;
-    let items = db.get('itemsAnime').filter({
-        genre: genreRoute
-    }).value();
+    let items = db
+        .get("itemsAnime")
+        .filter({
+            genre: genreRoute
+        })
+        .value();
 
-    res.render('genre/home', {
+    res.render("genre/home", {
         items: items
     });
     next();
@@ -213,10 +229,13 @@ module.exports.genre = (req, res, next) => {
 
 module.exports.season = (req, res, next) => {
     let seasonRoute = req.params.season;
-    let items = db.get('itemsAnime').filter({
-        season: seasonRoute
-    }).value();
-    res.render('season/home', {
+    let items = db
+        .get("itemsAnime")
+        .filter({
+            season: seasonRoute
+        })
+        .value();
+    res.render("season/home", {
         items: items
     });
     next();
@@ -224,10 +243,13 @@ module.exports.season = (req, res, next) => {
 
 module.exports.year = (req, res, next) => {
     let yearRoute = req.params.year;
-    let items = db.get('itemsAnime').filter({
-        year: yearRoute
-    }).value();
-    res.render('year/home', {
+    let items = db
+        .get("itemsAnime")
+        .filter({
+            year: yearRoute
+        })
+        .value();
+    res.render("year/home", {
         items: items
     });
     next();
@@ -236,28 +258,32 @@ module.exports.year = (req, res, next) => {
 module.exports.favorite = (req, res, next) => {
     let animeId = req.params.id;
     let userId = req.signedCookies.userId;
-    let anime = db.get('itemsAnime').find({
-        id: animeId
-    }).value();
+    let anime = db
+        .get("itemsAnime")
+        .find({
+            id: animeId
+        })
+        .value();
 
     // validate data
-    let favorite = db.get('favorite').find({
-        userId: userId,
-        id: animeId
-    }).value();
+    let favorite = db
+        .get("favorite")
+        .find({
+            userId: userId,
+            id: animeId
+        })
+        .value();
 
     if (favorite !== undefined) {
-        res.render('favorite/err', {
-            errors: [
-                'Bạn đã thêm phim này rùi.'
-            ],
+        res.render("favorite/err", {
+            errors: ["Bạn đã thêm phim này rùi."],
             values: req.body
         });
         return;
     }
 
     // write date
-    db.get('favorite')
+    db.get("favorite")
         .push({
             userId: userId,
             id: anime.id,
@@ -272,40 +298,47 @@ module.exports.favorite = (req, res, next) => {
             url: anime.url,
             image: anime.image,
             backGround: anime.backGround
-        }).write();
+        })
+        .write();
 
-    res.redirect('/favorite/user/' + userId);
-}
+    res.redirect("/favorite/user/" + userId);
+};
 
 module.exports.userFavorite = (req, res, next) => {
     let userId = req.params.id;
-    let items = db.get('favorite').filter({
-        userId: userId,
-    }).value();
-    res.render('favorite/home', {
-        items: items,
+    let items = db
+        .get("favorite")
+        .filter({
+            userId: userId
+        })
+        .value();
+    res.render("favorite/home", {
+        items: items
     });
     next();
-}
+};
 
 module.exports.getDeleteFavorite = (req, res, next) => {
     let userId = req.signedCookies.userId;
     let animeId = req.params.id;
 
-    let favoriteItem = db.get('favorite').find({
-        userId: userId,
-        id: animeId
-    }).value();
+    let favoriteItem = db
+        .get("favorite")
+        .find({
+            userId: userId,
+            id: animeId
+        })
+        .value();
 
-    db.get('favorite')
+    db.get("favorite")
         .remove({
             id: favoriteItem.id
         })
         .write();
 
-    res.redirect('/');
+    res.redirect("/");
     next();
-}
+};
 
 module.exports.viewCount = (req, res, next) => {
     let animeId = req.params.id;
@@ -313,18 +346,24 @@ module.exports.viewCount = (req, res, next) => {
     let sessionId = req.signedCookies.sessionId;
 
     if (!sessionId) {
-        res.redirect('/anime/' + animeId + "/" + animeEp);
+        res.redirect("/anime/" + animeId + "/" + animeEp);
     }
 
-    var count = db.get('view').find({
-        id: sessionId
-    }).get('count.' + animeId, 0).value();
-
-    db.get('view')
+    var count = db
+        .get("view")
         .find({
-            id: sessionId
+            // id: sessionId
+            number: "1"
         })
-        .set('count.' + animeId, count + 1)
+        .get("count." + animeId, 0)
+        .value();
+
+    db.get("view")
+        .find({
+            // id: sessionId
+            number: "1"
+        })
+        .set("count." + animeId, count + 1)
         .write();
-    res.redirect('/anime/' + animeId + "/" + animeEp);
-}
+    res.redirect("/anime/" + animeId + "/" + animeEp);
+};
