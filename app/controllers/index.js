@@ -119,6 +119,18 @@ module.exports.index = (req, res, next) => {
         arrFavorite.push(userFavorite[i].url);
     }
 
+    // view count 
+    let urlItemAnime = db.get('itemsAnime').value();
+
+    let arrAnime = [];
+    for (let i = 0; i < urlItemAnime.length; i++) {
+        arrAnime.push(urlItemAnime[i].url);
+    }
+
+    let viewCount = db.get('view').filter({
+        number: "1"
+    }).value();
+
     res.render("index", {
         users: users,
         items: items,
@@ -298,8 +310,21 @@ module.exports.getDeleteFavorite = (req, res, next) => {
 module.exports.viewCount = (req, res, next) => {
     let animeId = req.params.id;
     let animeEp = req.params.ep;
+    let sessionId = req.signedCookies.sessionId;
 
-    db.get('view').set('id')
+    if (!sessionId) {
+        res.redirect('/anime/' + animeId + "/" + animeEp);
+    }
 
+    var count = db.get('view').find({
+        id: sessionId
+    }).get('count.' + animeId, 0).value();
+
+    db.get('view')
+        .find({
+            id: sessionId
+        })
+        .set('count.' + animeId, count + 1)
+        .write();
     res.redirect('/anime/' + animeId + "/" + animeEp);
 }

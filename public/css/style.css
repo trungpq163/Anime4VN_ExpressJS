@@ -108,6 +108,24 @@
     right: 0;
 }
 
+.overlay .view {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.view .view-count {
+    font-size: 60%;
+    color: #fffeee;
+    background: linear-gradient(231deg, rgba(0, 0, 0, 0.3) 5%, rgba(62, 62, 83, 0.5956583316920518) 35%, rgba(55, 55, 55, 0) 80%);
+    user-select: none;
+}
+
+
+.view .view-count i {
+    font-size: 70%;
+}
+
 .overlay .info {
     padding-left: 0.2rem;
 }
