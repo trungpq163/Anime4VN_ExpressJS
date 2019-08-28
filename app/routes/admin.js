@@ -19,6 +19,12 @@ router.post('/signup', adminMiddleware.checkAdmin, upload.single('avatar'), vali
 router.get('/check', adminMiddleware.checkAdmin, controller.validateAdmin);
 router.post('/check', adminMiddleware.checkAdmin, controller.postValidateAdmin);
 
+router.get('/change', adminMiddleware.checkAdmin, controller.changePass);
+router.put('/change', adminMiddleware.checkAdmin, controller.putChangePass);
+
+router.get('/forgot', adminMiddleware.checkAdmin, controller.forgotPass);
+router.put('/forgot', adminMiddleware.checkAdmin, controller.putForgotPass);
+
 router.get('/logout', adminMiddleware.checkAdmin, controller.logout);
 
 module.exports = router;

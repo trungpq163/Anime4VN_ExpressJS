@@ -1,0 +1,31 @@
+extends ../extends/layout
+
+block content
+    //- header
+    include ../includes/content/indexRoute/header
+    .pt-5
+    .container.font-default
+        h2.pt-5.mt-5 Quên Mật Khẩu
+
+        if errors
+            each error in errors
+                .alert.alert-danger= error
+
+        form(action="/admin/forgot?_method=PUT" method="POST")
+            .form-group 
+                label(for="email") Nhập email
+                input#email.form-control(name="email", type="text", value=value ? values.email: "")
+
+            .form-group 
+                label(for="name") Nhập họ tên
+                input#name.form-control(name="name", type="text", value=value ? values.name: "")
+
+            .form-group
+                label(for="newPassword") Nhập Mật khẩu mới
+                input#password.form-control(name="newPassword", type="password", value=values ? values.newPassword : "")
+
+            .form-group
+                label(for="reNewPassword") Nhập lại Mật khẩu mới
+                input#reNewPassword.form-control(name="reNewPassword", type="password", value=values ? values.reNewPassword : "")
+            
+            button.btn.btn-primary Change

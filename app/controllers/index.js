@@ -222,7 +222,8 @@ module.exports.genre = (req, res, next) => {
         .value();
 
     res.render("genre/home", {
-        items: items
+        items: items,
+        genreRoute: genreRoute
     });
     next();
 };
@@ -236,7 +237,8 @@ module.exports.season = (req, res, next) => {
         })
         .value();
     res.render("season/home", {
-        items: items
+        items: items,
+        seasonRoute: seasonRoute
     });
     next();
 };
@@ -250,7 +252,8 @@ module.exports.year = (req, res, next) => {
         })
         .value();
     res.render("year/home", {
-        items: items
+        items: items,
+        yearRoute: yearRoute
     });
     next();
 };
