@@ -12,3 +12,21 @@
                                 a(href='#')= item.title
                             .ep
                                 a(href='#')= item.status 
+                        each arr in arrFavorite
+                            if(arr == item.url)
+                                a(href="/favorite/detete/anime" + item.id)
+                                    .count
+                                        .view-count(style="color: white; font-size: 150%;")
+                                            .overlay-count
+                                                i.fas.fa-heart.fa-sm
+                            else if(arr != item.url)
+                                a(href="/favorite/anime/" + item.id)
+                                    .count
+                                        .view-count(style="color: white; font-size: 150%;")
+                                            .overlay-count
+                                                i.far.fa-heart.fa-sm
+                        a(href="/favorite/anime/" + item.id)
+                            .count
+                                .view-count(style="color: white; font-size: 150%;")
+                                    .overlay-count
+                                        i.far.fa-heart.fa-sm

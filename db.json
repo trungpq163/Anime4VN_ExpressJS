@@ -33,7 +33,7 @@
     {
       "name": "Quốc Trung",
       "email": "miyucoder@gmail.com",
-      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "password": "b7f72f276175f5cabb7f9c99f40004d7",
       "id": "Nxm-J0ets",
       "avatar": "/uploads/cebd62c26c026354f48b8b4c84dee2f4"
     },
@@ -339,21 +339,6 @@
     },
     {
       "userId": "ZocnHEEKs",
-      "id": "fp_d6Y09A",
-      "title": "Sword Art Online: Alicization",
-      "ortherTitle": "ソードアート・オンライン アリシゼーション",
-      "scores": "9.3",
-      "status": "Complete",
-      "genre": "action",
-      "genreOrther": "drama, horror",
-      "season": "spring",
-      "year": "2019",
-      "url": "sword-art-online-alicization",
-      "image": "/uploads/0d7cff6acdd0e10355cf3d6b95e1343d",
-      "backGround": "/uploads/5c06a91e8786201ed3f639d409d23db1"
-    },
-    {
-      "userId": "ZocnHEEKs",
       "id": "Da13GBw6F",
       "title": "Kaguya-sama wa Kokurasetai",
       "ortherTitle": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
@@ -381,6 +366,51 @@
       "url": "mahouka-koukou",
       "image": "/uploads/e235e667ebe354ab6c38fb4974b9c895",
       "backGround": "/uploads/d207106ff2f4c1900db49ee4645b0bf8"
+    },
+    {
+      "userId": "wdCEuoyLI",
+      "id": "e_e-b-KS_",
+      "title": "Rakudai Kishi no Cavalry",
+      "ortherTitle": "落第騎士の英雄譚",
+      "scores": "10",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "school, drama",
+      "season": "spring",
+      "year": "2016",
+      "url": "rakudai-kishi-no-cavalry",
+      "image": "/uploads/54d1edfbede712d44aadee105ec81436",
+      "backGround": "/uploads/cd037e6bec0740e9086097bc8480f579"
+    },
+    {
+      "userId": "wdCEuoyLI",
+      "id": "Da13GBw6F",
+      "title": "Kaguya-sama wa Kokurasetai",
+      "ortherTitle": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "scores": "9.3",
+      "status": "complete",
+      "genre": "comedy",
+      "genreOrther": "romance, school",
+      "season": "spring",
+      "year": "2019",
+      "url": "kaguya-sama-wa-kokurasetai",
+      "image": "/uploads/7ea2c1e51c6da90b456d37e242e10977",
+      "backGround": "/uploads/8e581f668dcad214905b5c6c205b0827"
+    },
+    {
+      "userId": "wdCEuoyLI",
+      "id": "IUlSi7Q5Q",
+      "title": "Senryuu Shoujo",
+      "ortherTitle": "川柳少女",
+      "scores": "9.5",
+      "status": "Complete",
+      "genre": "comedy",
+      "genreOrther": "school",
+      "season": "spring",
+      "year": "2018",
+      "url": "senryuu-shoujo",
+      "image": "/uploads/169d6173957c62c8b3b627e981af5419",
+      "backGround": "/uploads/12f23e20e09075e20065723d497cf943"
     }
   ],
   "view": [
@@ -419,6 +449,114 @@
     {
       "number": "1",
       "id": "6TVb_bk-qu"
+    },
+    {
+      "number": "1",
+      "id": "BTDhkkMDc"
+    },
+    {
+      "number": "1",
+      "id": "a_rVlPQZ3"
+    },
+    {
+      "number": "1",
+      "id": "a4rE-pHWKk"
+    },
+    {
+      "number": "1",
+      "id": "eubnD3jD0D"
+    },
+    {
+      "number": "1",
+      "id": "uab9SfgMF"
+    },
+    {
+      "number": "1",
+      "id": "VNqWErJnLo"
+    },
+    {
+      "number": "1",
+      "id": "aTEmvV5et"
+    },
+    {
+      "number": "1",
+      "id": "IkaBB4XpsD"
+    },
+    {
+      "number": "1",
+      "id": "W38qwkYCdQ"
+    },
+    {
+      "number": "1",
+      "id": "onyOcSjkyE"
+    },
+    {
+      "number": "1",
+      "id": "Jg83fkAQIJ"
+    },
+    {
+      "number": "1",
+      "id": "1Tzh9J_9Ge"
+    },
+    {
+      "number": "1",
+      "id": "A_H3QB-UYh"
+    },
+    {
+      "number": "1",
+      "id": "qW58Ns0iSk"
+    },
+    {
+      "number": "1",
+      "id": "MRXtV6TwIZ"
+    },
+    {
+      "number": "1",
+      "id": "vDfTChXSCJ"
+    },
+    {
+      "number": "1",
+      "id": "5wuV5guBIC"
+    },
+    {
+      "number": "1",
+      "id": "7yroaZktLT"
+    },
+    {
+      "number": "1",
+      "id": "bP20lH_zLl"
+    },
+    {
+      "number": "1",
+      "id": "TYQHdsQyKg"
+    },
+    {
+      "number": "1",
+      "id": "XPY9QAfvIO"
+    },
+    {
+      "number": "1",
+      "id": "b9egYcJ4-W"
+    },
+    {
+      "number": "1",
+      "id": "WqU5mTTNbMZ"
+    },
+    {
+      "number": "1",
+      "id": "DwpflvFIkIN"
+    },
+    {
+      "number": "1",
+      "id": "4RNjSMzFk_n"
+    },
+    {
+      "number": "1",
+      "id": "yKbLptoFqWW"
+    },
+    {
+      "number": "1",
+      "id": "t9xzZO7sR8a"
     }
   ]
 }
