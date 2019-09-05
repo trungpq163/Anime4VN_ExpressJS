@@ -214,6 +214,20 @@ module.exports.playvideo = (req, res, next) => {
 
 module.exports.genre = (req, res, next) => {
     let genreRoute = req.params.genre;
+    // favorite
+    let userId = req.signedCookies.userId;
+    let userFavorite = db
+        .get("favorite")
+        .filter({
+            userId: userId
+        })
+        .value();
+
+    let arrFavorite = [];
+    for (let i = 0; i < userFavorite.length; i++) {
+        arrFavorite.push(userFavorite[i].url);
+    }
+
     let items = db
         .get("itemsAnime")
         .filter({
@@ -223,13 +237,29 @@ module.exports.genre = (req, res, next) => {
 
     res.render("genre/home", {
         items: items,
-        genreRoute: genreRoute
+        genreRoute: genreRoute,
+        arrFavorite: arrFavorite
     });
     next();
 };
 
 module.exports.season = (req, res, next) => {
     let seasonRoute = req.params.season;
+
+    // favorite
+    let userId = req.signedCookies.userId;
+    let userFavorite = db
+        .get("favorite")
+        .filter({
+            userId: userId
+        })
+        .value();
+
+    let arrFavorite = [];
+    for (let i = 0; i < userFavorite.length; i++) {
+        arrFavorite.push(userFavorite[i].url);
+    }
+
     let items = db
         .get("itemsAnime")
         .filter({
@@ -238,13 +268,29 @@ module.exports.season = (req, res, next) => {
         .value();
     res.render("season/home", {
         items: items,
-        seasonRoute: seasonRoute
+        seasonRoute: seasonRoute,
+        arrFavorite: arrFavorite
     });
     next();
 };
 
 module.exports.year = (req, res, next) => {
     let yearRoute = req.params.year;
+
+    // favorite
+    let userId = req.signedCookies.userId;
+    let userFavorite = db
+        .get("favorite")
+        .filter({
+            userId: userId
+        })
+        .value();
+
+    let arrFavorite = [];
+    for (let i = 0; i < userFavorite.length; i++) {
+        arrFavorite.push(userFavorite[i].url);
+    }
+
     let items = db
         .get("itemsAnime")
         .filter({
@@ -253,7 +299,8 @@ module.exports.year = (req, res, next) => {
         .value();
     res.render("year/home", {
         items: items,
-        yearRoute: yearRoute
+        yearRoute: yearRoute,
+        arrFavorite: arrFavorite
     });
     next();
 };

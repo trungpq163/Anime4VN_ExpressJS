@@ -30,15 +30,18 @@ block content
                             button.btn.btn-light(type='button')
                                 | Report 
                                 i.fas.fa-exclamation-triangle
-                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate - 1))
+                        //- a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate - 1))
+                        a(href='/anime/' + itemFind.url + '/tap-' + (itemFind.epUpdate - 1))
                             button.btn.btn-light(type='button')
                                 | Previous 
                                 i.fas.fa-step-backward
-                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate))
+                        //- a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate))
+                        a(href='/anime/' + itemFind.url + '/tap-' + (itemFind.epUpdate))
                             button.btn.btn-light(type='button')
                                 | Reload 
                                 i.fas.fa-redo
-                        a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate -1 + 2))
+                        //- a(href='/anime/tejina-senpai/tap-' + (itemFind.epUpdate -1 + 2))
+                        a(href='/anime/' + itemFind.url + '/tap-' + (itemFind.epUpdate -1 + 2))
                             button.btn.btn-light(type='button')
                                 | Next 
                                 i.fas.fa-step-forward
@@ -62,11 +65,13 @@ block content
         left
             each item in countItemsPagination
                 if(itemFind.epUpdate == item.epUpdate)
-                    a(href='/anime/tejina-senpai/tap-' + item.epUpdate)
+                    //- a(href='/anime/tejina-senpai/tap-' + item.epUpdate)
+                    a(href='/anime/' + item.url + '/tap-' + item.epUpdate)
                         button.btn.btn-light(type='button', style='color: #000; font-family: Barlow Semi Condensed, sans-serif;')
                             span= item.epUpdate
                 if(itemFind.epUpdate != item.epUpdate)
-                    a(href='/anime/tejina-senpai/tap-' + item.epUpdate)
+                    //- a(href='/anime/tejina-senpai/tap-' + item.epUpdate)
+                    a(href='/anime/' + item.url + '/tap-' + item.epUpdate)
                         button.btn.btn-light(type='button', style='color: rgb(158, 158, 158); font-family: Barlow Semi Condensed, sans-serif;')
                             span= item.epUpdate
         

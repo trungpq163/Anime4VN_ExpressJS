@@ -27,6 +27,13 @@
       "password": "b7f72f276175f5cabb7f9c99f40004d7",
       "id": "wdCEuoyLI",
       "avatar": "/uploads/1841f565bf4493f0b5940cde01946427"
+    },
+    {
+      "name": "trung",
+      "email": "trung@gmail.com",
+      "password": "7af25da4cbf26f9c0f121585d176cf71",
+      "id": "LZe91RTeW",
+      "avatar": "/uploads/20f1a7b3880ea490c3270666eacbfc06"
     }
   ],
   "admin": [
@@ -149,6 +156,28 @@
       "url": "senryuu-shoujo",
       "id": "qliz1Bxzb",
       "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Rakudai Kishi no Cavalry",
+      "epUpdate": "1",
+      "epLast": "12",
+      "time": "23:42",
+      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_442134586348849_2244649392824006206_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk_2HaPDc6iYzz2k_s1YRTlJqWbE-7gphzIay4u9QTpPa8w81gz1s1ZUeoMGvyiaqo&_nc_ht=scontent.xx&oh=c4443b8e74f51bcd4aa07b53f8328067&oe=5E0F0C05",
+      "epvideo": "tap-1",
+      "url": "rakudai-kishi-no-cavalry",
+      "id": "FnEmKUEgc",
+      "image": "/uploads/52269b7773b0c328ae523f235bf18821"
+    },
+    {
+      "title": "Rakudai Kishi no Cavalry",
+      "epUpdate": "2",
+      "epLast": "12",
+      "time": "23:41",
+      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_116068999413363_469127417269399949_n.mp4?_nc_cat=104&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQkmR_rfG5IPljdJXyteosAMdEZ9DXH_JMhohUsYeU6-Gx7uKDjj_shJC6igTb4WA2Q&_nc_ht=scontent.xx&oh=7609f1784f7718293da36e8a27e0e631&oe=5E0DA386",
+      "epvideo": "tap-2",
+      "url": "rakudai-kishi-no-cavalry",
+      "id": "1GE5ewDq5",
+      "image": "/uploads/5a95854af3241acc567540a399cd448f"
     }
   ],
   "itemsAnime": [
@@ -418,8 +447,9 @@
       "number": "1",
       "id": "AffYx9ALr",
       "count": {
-        "senryuu-shoujo": 9,
-        "tejina-senpai": 11
+        "senryuu-shoujo": 10,
+        "tejina-senpai": 12,
+        "rakudai-kishi-no-cavalry": 6
       }
     },
     {
@@ -557,6 +587,34 @@
     {
       "number": "1",
       "id": "t9xzZO7sR8a"
+    },
+    {
+      "number": "1",
+      "id": "ETglGefdt"
+    },
+    {
+      "number": "1",
+      "id": "ze-w8oaB8"
+    },
+    {
+      "number": "1",
+      "id": "_oqxHSdVd"
+    },
+    {
+      "number": "1",
+      "id": "prd586njn"
+    },
+    {
+      "number": "1",
+      "id": "c2fygUcN9"
+    },
+    {
+      "number": "1",
+      "id": "qjeLT6y81"
+    },
+    {
+      "number": "1",
+      "id": "9D9BVWLHY"
     }
   ]
 }
