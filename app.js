@@ -8,7 +8,7 @@ const sessionMiddleware = require(`./app/middlewares/session`);
 const path = require(`path`);
 
 const app = express();
-const port = 8000;
+const port = process.env.port || 8000;
 
 // require routes
 const indexRoute = require(`./app/routes/index`);
