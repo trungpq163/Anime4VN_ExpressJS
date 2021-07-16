@@ -8,13 +8,6 @@
       "avatar": "/uploads/b804480d193fbd65015fc150a5843727"
     },
     {
-      "name": "miyu chan",
-      "email": "miyuuser@gmail.com",
-      "password": "7af25da4cbf26f9c0f121585d176cf71",
-      "id": "7_b-1m0SM",
-      "avatar": "/uploads/4c87d162a45d4f8ed643e58bfda0911a"
-    },
-    {
       "name": "testing",
       "email": "testing@gmail.com",
       "password": "7af25da4cbf26f9c0f121585d176cf71",
@@ -34,6 +27,13 @@
       "password": "7af25da4cbf26f9c0f121585d176cf71",
       "id": "LZe91RTeW",
       "avatar": "/uploads/20f1a7b3880ea490c3270666eacbfc06"
+    },
+    {
+      "name": "QuocTrung",
+      "email": "quoctrung163@icloud.com",
+      "password": "1b3ac23071689ff90c38d7cc49ed891f",
+      "id": "UBqYoFcoa",
+      "avatar": "/uploads/0a1da01eb9a7263931e8199b371a7504"
     }
   ],
   "admin": [
@@ -50,6 +50,13 @@
       "password": "d81d0054da8bea7eecab22ae11cef6bb",
       "id": "ozg5zBDGc",
       "avatar": "/uploads/2c6fec0e213ba52b96fe4816e5d2c1e6"
+    },
+    {
+      "name": "trungphan",
+      "email": "trungphan163@icloud.com",
+      "password": "1b3ac23071689ff90c38d7cc49ed891f",
+      "id": "Z-PWekqI2",
+      "avatar": "/uploads/941a5108c2fb087e9d17b7637064484e"
     }
   ],
   "keyAdmin": [
@@ -61,9 +68,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "1",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_146560503090727_8897290050652976773_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQlJYpYgsSyQL5V_lTh6AOSRuK4kyyovlZxnVcc44fp-eCvH2VFeEMnwnI1aa7x-4C8&_nc_ht=scontent.xx&oh=0dffcfe7209672650cafcf030f508a01&oe=5DDE8720",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/HU7PO7EYRLY/23adesc22_1626259699.22.0_123834.mp4",
       "epvideo": "tap-1",
       "url": "tejina-senpai",
       "id": "VLrtHovCi",
@@ -72,9 +79,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "2",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_169447527421054_5639867936280448_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQkGE6k4Atmpq66-NuoOHAmQrn0mJFWI_l4j9yIlgOtxqwyQ9-BH5sYZX350TgMpybE&_nc_ht=scontent.xx&oh=ea09f2eb90eef83f1e1bee67121147f2&oe=5E09A140",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/WKA_CZ5ZQOEU/23adesc22_1626254463.22.0_124173.mp4",
       "epvideo": "tap-2",
       "url": "tejina-senpai",
       "id": "Pr5hF1ZS_",
@@ -83,9 +90,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "3",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_149582946101730_4425717722016003894_n.mp4?_nc_cat=107&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQmHiwS4ibR0Mhxjf5DByOxS9XGEa5PRTNeMcGRn0xKi39F4fOdeHXE73cLFlrG5aJc&_nc_ht=scontent.xx&oh=00c392cc41eb3d80df04aea6cef582b4&oe=5E127FA2",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/K9YNIPI9JOUX/23adesc22_1626252979.22.0_124626.mp4",
       "epvideo": "tap-3",
       "url": "tejina-senpai",
       "id": "_uz7h0iI3",
@@ -94,9 +101,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "4",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_560015844533704_2273600091040841927_n.mp4?_nc_cat=109&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk5OoOWCfL4zwJ6diLYdBF9JhBL8_upSuNh4y4T5KwY2BsgNcN1ISUsP8UM0T6dkTc&_nc_ht=scontent.xx&oh=28d72a2255e01066cd41365fa6419227&oe=5DDA66BA",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/A9X_1A1M7FSJ/23adesc22_1626355751.22.0_125020.mp4",
       "epvideo": "tap-4",
       "url": "tejina-senpai",
       "id": "8aGuK-8mZ",
@@ -105,9 +112,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "5",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_470571893721432_5186254309915096441_n.mp4?_nc_cat=105&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQm8fhXr_N9j0xzrfNNuoyaVcDRuf_0D8H5GDNutM2bH68LWOjE6u2jXk8wpeYfi3fs&_nc_ht=scontent.xx&oh=88c4a1e1ad0995a14a86bbc6d67b0f64&oe=5E15AB39",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/WSTTF5GXJ7A/st23_tejina-senpai-episode-5.1626330472.mp4",
       "epvideo": "tap-5",
       "url": "tejina-senpai",
       "id": "9ie3OWci-",
@@ -116,9 +123,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "6",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_2398536530469892_3177138146327942777_n.mp4?_nc_cat=110&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQkx4_M3GFmlfVFSLLmzrWSpCEDxPEFoIpB22aM1JhQwMTeNOZaUDaGNw3J_L3zCTQk&_nc_ht=scontent.xx&oh=f79129cb0c2cb937e11c9507a19ee331&oe=5E0BAB5D",
+      "urlvideo": "https://storage.googleapis.com/cobalt-alliance-317006/DSO2K2G1S1FE/st22_tejina-senpai-episode-6.1625949900.mp4",
       "epvideo": "tap-6",
       "url": "tejina-senpai",
       "id": "Pqhc_k3ln",
@@ -127,9 +134,9 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "7",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_129748791627269_4237557629751533765_n.mp4?_nc_cat=106&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQl98-srgzWAOn2qwOOfeklQSofUqJXPVIuRlcTwf7VcpHGNhMJmzohHI5SmUGbXi0o&_nc_ht=scontent.xx&oh=171ec06b3db588e095443569d64befbe&oe=5DD2B8AE",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/NWOXOVFNB8P2/23adesc22_1626257922.22.0_126244.mp4",
       "epvideo": "tap-7",
       "url": "tejina-senpai",
       "id": "4vh0r4EWC",
@@ -138,18 +145,62 @@
     {
       "title": "Tejina-senpai",
       "epUpdate": "8",
-      "epLast": "??",
+      "epLast": "12",
       "time": "12:30",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_117306442697570_1076056131818978179_n.mp4?_nc_cat=106&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQlIhLdWgsmdQc-_D2uAWFmcIC1hpM2DQAzBg_hlhBL4yG2CWSBQ-4O4JEUKw8S9Qv4&_nc_ht=scontent.xx&oh=cf8ba56de3410c620f8e3a099b40c95e&oe=5DDBDDF9",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/UNTUQKLP74WA/22adesc22_1626264709.22.0_126765.mp4",
       "epvideo": "tap-8",
       "url": "tejina-senpai",
       "id": "ekHbi-NNm",
       "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
     },
     {
+      "title": "Tejina-senpai",
+      "epUpdate": "9",
+      "epLast": "12",
+      "time": "12:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/GIW2_1FN_H/22adesc22_1626249112.22.0_127427.mp4",
+      "epvideo": "tap-9",
+      "url": "tejina-senpai",
+      "id": "QSQ3RiABLB",
+      "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
+    },
+    {
+      "title": "Tejina-senpai",
+      "epUpdate": "10",
+      "epLast": "12",
+      "time": "12:30",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/A4Y4Q8XCLRG8/23adesc22_1626261330.22.0_128019.mp4",
+      "epvideo": "tap-10",
+      "url": "tejina-senpai",
+      "id": "SUcavMQdr8",
+      "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
+    },
+    {
+      "title": "Tejina-senpai",
+      "epUpdate": "11",
+      "epLast": "12",
+      "time": "12:30",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/RFW2EXCWDHXG/st23_tejina-senpai-episode-11.1626234564.mp4",
+      "epvideo": "tap-11",
+      "url": "tejina-senpai",
+      "id": "kJoH_vDlvK",
+      "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
+    },
+    {
+      "title": "Tejina-senpai",
+      "epUpdate": "12",
+      "epLast": "12",
+      "time": "12:30",
+      "urlvideo": "https://storage.googleapis.com/cobalt-alliance-317006/RR1XWWQ777RR/st22_tejina-senpai-episode-12.1625948375.mp4",
+      "epvideo": "tap-12",
+      "url": "tejina-senpai",
+      "id": "meTPV5O8ON",
+      "image": "/uploads/98b43a5d9dcfca6b0cefe52425a1d093"
+    },
+    {
       "title": "Senryuu Shoujo",
       "epUpdate": "1",
-      "epLast": "??",
+      "epLast": "12",
       "time": "22:30",
       "urlvideo": "https://drive.google.com/file/d/1XRU85-HR6vcdvWgC6EuUg6LPYdDla98r/preview",
       "epvideo": "tap-1",
@@ -158,11 +209,132 @@
       "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
     },
     {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "2",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/LOMMAAXA2PL_/st22_senryuu-shoujo-episode-2.1626325623.mp4",
+      "epvideo": "tap-2",
+      "url": "senryuu-shoujo",
+      "id": "A2-xetVICT",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "3",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/BKTKQJ3ARGE/st22_senryuu-shoujo-episode-3.1626236385.mp4",
+      "epvideo": "tap-3",
+      "url": "senryuu-shoujo",
+      "id": "Owbbv_1qIc",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "4",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/ZKKW5666HZY/22adesc22_1626266212.22.0_118699.mp4",
+      "epvideo": "tap-4",
+      "url": "senryuu-shoujo",
+      "id": "Bc8ZSm8Yzq",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "5",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/CX2Z8G_BJHBQ/22adesc22_1626260297.22.0_119178.mp4",
+      "epvideo": "tap-5",
+      "url": "senryuu-shoujo",
+      "id": "qsVT6REpvV",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "6",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/O2TYDPWKWG94/22adesc22_1626393536.22.0_119701.mp4",
+      "epvideo": "tap-6",
+      "url": "senryuu-shoujo",
+      "id": "rFBjI7OVoG",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "7",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/JFSE24RZ6VI/23adesc22_1626261587.22.0_120304.mp4",
+      "epvideo": "tap-7",
+      "url": "senryuu-shoujo",
+      "id": "cNQZY2Z6N9",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "8",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/6WLT7XROX67/st22_senryuu-shoujo-episode-8.1626256892.mp4",
+      "epvideo": "tap-8",
+      "url": "senryuu-shoujo",
+      "id": "O0aQakHCg1",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "9",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/ATWLXNEY643/st22_senryuu-shoujo-episode-9.1626236058.mp4",
+      "epvideo": "tap-9",
+      "url": "senryuu-shoujo",
+      "id": "9Slb0D1Mzs",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "10",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/XHR2ZZFNR58K/st23_senryuu-shoujo-episode-10.1626236564.mp4",
+      "epvideo": "tap-10",
+      "url": "senryuu-shoujo",
+      "id": "1iloBXPyqe",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "11",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/YMN4E8G_GY8/st22_senryuu-shoujo-episode-11.1626255248.mp4",
+      "epvideo": "tap-11",
+      "url": "senryuu-shoujo",
+      "id": "6Omir-fQ6Q",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
+      "title": "Senryuu Shoujo",
+      "epUpdate": "12",
+      "epLast": "12",
+      "time": "22:30",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/AJSD192SH56A/st23_senryuu-shoujo-episode-12.1626234879.mp4",
+      "epvideo": "tap-12",
+      "url": "senryuu-shoujo",
+      "id": "Tt_uyDgPRj",
+      "image": "/uploads/bd3125a121e2df50cd1cf4d13af12f9b"
+    },
+    {
       "title": "Rakudai Kishi no Cavalry",
       "epUpdate": "1",
       "epLast": "12",
       "time": "23:42",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_442134586348849_2244649392824006206_n.mp4?_nc_cat=100&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQk_2HaPDc6iYzz2k_s1YRTlJqWbE-7gphzIay4u9QTpPa8w81gz1s1ZUeoMGvyiaqo&_nc_ht=scontent.xx&oh=c4443b8e74f51bcd4aa07b53f8328067&oe=5E0F0C05",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/E66OBFI2HVCO/st22_rakudai-kishi-no-cavalry-episode-1.1626226356.mp4",
       "epvideo": "tap-1",
       "url": "rakudai-kishi-no-cavalry",
       "id": "FnEmKUEgc",
@@ -173,11 +345,110 @@
       "epUpdate": "2",
       "epLast": "12",
       "time": "23:41",
-      "urlvideo": "https://scontent.xx.fbcdn.net/v/t39.24130-6/10000000_116068999413363_469127417269399949_n.mp4?_nc_cat=104&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_oc=AQkmR_rfG5IPljdJXyteosAMdEZ9DXH_JMhohUsYeU6-Gx7uKDjj_shJC6igTb4WA2Q&_nc_ht=scontent.xx&oh=7609f1784f7718293da36e8a27e0e631&oe=5E0DA386",
+      "urlvideo": "https://storage.googleapis.com/cobalt-alliance-317006/JGXFVODTJ5TA/st22_rakudai-kishi-no-cavalry-episode-2.1625937295.mp4",
       "epvideo": "tap-2",
       "url": "rakudai-kishi-no-cavalry",
       "id": "1GE5ewDq5",
       "image": "/uploads/5a95854af3241acc567540a399cd448f"
+    },
+    {
+      "title": "Overlord",
+      "epUpdate": "1",
+      "epLast": "??",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/_QPX7B8LW7V/st22_overlord-episode-1.1626223343.mp4",
+      "epvideo": "tap-1",
+      "url": "overlord",
+      "id": "5wZghS8Wo",
+      "image": "/uploads/d3faf0966a9b9ba59ad7d739da922a5a"
+    },
+    {
+      "title": "Overlord",
+      "epUpdate": "2",
+      "epLast": "??",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/skilful-alpha-317202/YCGCZIYZRAS7/st22_overlord-episode-2.1626292177.mp4",
+      "epvideo": "tap-2",
+      "url": "overlord",
+      "id": "utdtD22vr",
+      "image": "/uploads/5bcb84be2e29939ce2de4e8e293e3e21"
+    },
+    {
+      "title": "Arifureta Shokugyou de Sekai Saikyou",
+      "epUpdate": "1",
+      "epLast": "13",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/6IC8UMD3IGZP/st23_arifureta-shokugyou-de-sekai-saikyou-episode-1.1626232268.mp4",
+      "epvideo": "tap-1",
+      "url": "arifureta-shokugyou-de-sekai-saikyou",
+      "id": "VK2YNR2Q7",
+      "image": "/uploads/01004ca74b96d44fb28248b9f0c71933"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "epUpdate": "1",
+      "epLast": "36",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/XP9Q6KJ1T2AZ/st23_tokyo-ghoul-episode-1.1626226358.mp4",
+      "epvideo": "tap-1",
+      "url": "tokyo-ghoul",
+      "id": "-CL0hg7gI",
+      "image": "/uploads/5606efb33c6753f54e43dac64b955935"
+    },
+    {
+      "title": "Sword Art Online: Alicization",
+      "epUpdate": "1",
+      "epLast": "24",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/X_K4IKC6Y5G/23adesc22_1626261614.22.0_110453.mp4",
+      "epvideo": "tap-1",
+      "url": "sword-art-online-alicization",
+      "id": "XeeUOuxzM",
+      "image": "/uploads/e58efc459cc72cc68a4c898f33445e88"
+    },
+    {
+      "title": "Mahouka Koukou no Rettousei",
+      "epUpdate": "1",
+      "epLast": "12",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/O_THHFU_5MWV/st23_mahouka-koukou-no-rettousei-episode-1.1626223276.mp4",
+      "epvideo": "tap-1",
+      "url": "mahouka-koukou",
+      "id": "FpjT4zOte",
+      "image": "/uploads/09a8a6b8dbc04dcd11874ff14274b5a7"
+    },
+    {
+      "title": "Kaguya-sama wa Kokurasetai",
+      "epUpdate": "1",
+      "epLast": "24",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/cobalt-alliance-317006/49_AFK_CWN91/st22_kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-episode-1.1625947810.mp4",
+      "epvideo": "tap-1",
+      "url": "kaguya-sama-wa-kokurasetai",
+      "id": "MUTzsUNI3",
+      "image": "/uploads/a1b9e5c08787740d2ba6ca3dca121fd5"
+    },
+    {
+      "title": "Owari no Seraph",
+      "epUpdate": "1",
+      "epLast": "24",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/_T9SIXYXP42/st23_owari-no-seraph-episode-1.1626299824.mp4",
+      "epvideo": "tap-1",
+      "url": "owari-no-seraph",
+      "id": "QtNHvv7_0",
+      "image": "/uploads/7339f328cdf71546db25361db755b831"
+    },
+    {
+      "title": "Kimetsu no Yaiba",
+      "epUpdate": "1",
+      "epLast": "26",
+      "time": "22:00",
+      "urlvideo": "https://storage.googleapis.com/oval-silicon-319009/UI431VTAVIFV/st23_kimetsu-no-yaiba-episode-1.1626223380.mp4",
+      "epvideo": "tap-1",
+      "url": "kimetsu-no-yaiba",
+      "id": "kqrLUOyV4",
+      "image": "/uploads/7a9090382d80e6d55bc87d5b85de9ed8"
     }
   ],
   "itemsAnime": [
@@ -185,7 +456,7 @@
       "title": "Tejina-senpai",
       "ortherTitle": "手品先輩",
       "scores": "9.5",
-      "status": "??",
+      "status": "complete",
       "genre": "comedy",
       "genreOrther": "ecchi, school",
       "season": "summer",
@@ -440,6 +711,51 @@
       "url": "senryuu-shoujo",
       "image": "/uploads/169d6173957c62c8b3b627e981af5419",
       "backGround": "/uploads/12f23e20e09075e20065723d497cf943"
+    },
+    {
+      "userId": "UBqYoFcoa",
+      "id": "665tTs68n",
+      "title": "Tokyo Ghoul",
+      "ortherTitle": "東京喰種-トーキョーグール-",
+      "scores": "9.7",
+      "status": "complete",
+      "genre": "action",
+      "genreOrther": "drama, horror,",
+      "season": "summer",
+      "year": "2014",
+      "url": "tokyo-ghoul",
+      "image": "/uploads/ff34a7bdfe2c859524930fedc30b33b0",
+      "backGround": "/uploads/9bebd86474e6458e485712bac8428006"
+    },
+    {
+      "userId": "UBqYoFcoa",
+      "id": "d67H2MRvk",
+      "title": "Kimetsu no Yaiba",
+      "ortherTitle": "鬼滅の刃",
+      "scores": "9.5",
+      "status": "??",
+      "genre": "shounen",
+      "genreOrther": "action, demons",
+      "season": "winter",
+      "year": "2019",
+      "url": "kimetsu-no-yaiba",
+      "image": "/uploads/f0574e701f813b1d81f6d5ea4adfb068",
+      "backGround": "/uploads/028f2e11f14abbf82b080d4c2962b0ba"
+    },
+    {
+      "userId": "UBqYoFcoa",
+      "id": "oeNnjRpem",
+      "title": "Fate/Apocrypha",
+      "ortherTitle": "Fate/Apocrypha",
+      "scores": "9.9",
+      "status": "Complete",
+      "genre": "action",
+      "genreOrther": "drama, demons",
+      "season": "summer",
+      "year": "2017",
+      "url": "fate-apocrypha",
+      "image": "/uploads/09c07394a6fb0afe4193fe2d45cc9006",
+      "backGround": "/uploads/88c9399ab91b53b8b615136a08013e2b"
     }
   ],
   "view": [
@@ -447,9 +763,15 @@
       "number": "1",
       "id": "AffYx9ALr",
       "count": {
-        "senryuu-shoujo": 10,
-        "tejina-senpai": 12,
-        "rakudai-kishi-no-cavalry": 6
+        "senryuu-shoujo": 11,
+        "tejina-senpai": 19,
+        "rakudai-kishi-no-cavalry": 11,
+        "overlord": 1,
+        "arifureta-shokugyou-de-sekai-saikyou": 1,
+        "tokyo-ghoul": 2,
+        "sword-art-online-alicization": 1,
+        "owari-no-seraph": 2,
+        "kimetsu-no-yaiba": 1
       }
     },
     {
@@ -615,6 +937,22 @@
     {
       "number": "1",
       "id": "9D9BVWLHY"
+    },
+    {
+      "number": "1",
+      "id": "IBr0Z-pNY"
+    },
+    {
+      "number": "1",
+      "id": "zWXlY9hYc"
+    },
+    {
+      "number": "1",
+      "id": "Rxnb_lOTP"
+    },
+    {
+      "number": "1",
+      "id": "BRHuXrElt"
     }
   ]
 }
